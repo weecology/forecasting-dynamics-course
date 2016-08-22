@@ -50,13 +50,21 @@ discussion during the semester
 
 #### **Attendance Policy**
 
-Two days of discussion can be missed without impacts on your grade. 
-Class activities can be made-up on the student's time within a week. 
-Additional missed discussions can be made up by providing a written summary of the
-readings for the day(s) missed. Written summaries will involve
-1-paragraph summary of the main questions and findings for each assigned
-paper and 1 paragraph applying the paper to how we think about either ecological 
-dynamics or forecasting.
+Two days can be missed without impacts on your grade without the need
+to submit make-up work, though we recommend that students attempt any 
+missed class activities on their own time because additional class 
+activities or discussions may rely on that knowledge. 
+
+Up to 4 additional missed days can be made-up by submitting make-up work.
+Class activities can be made-up on the student's time within a week by doing
+the activity and submitting the code/data for instruvtor evaluation. Missed 
+discussions can be made up by providing a written summary of the readings 
+for the day(s) missed. Written summaries will involve 1-paragraph summary of the 
+main questions and findings for each assigned paper and 1 paragraph applying the 
+paper to how we think about either ecological dynamics or forecasting.
+
+If a student anticpates missing more than 6 class days (i.e. 3 weeks of classes), you
+must talk to the instructors beforehand.
 
 #### **Course Materials**
 
