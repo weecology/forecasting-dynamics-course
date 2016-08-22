@@ -15,9 +15,9 @@ title: Syllabus
 												 
 #### **Times and Locations**
 
-Tuesday, Period 6-7 (12:50-2:45), RNK 0230
+Tuesday, Period 5 (11:45-12:35), MCCA 3194
 
-Thursday, Period 8 (3:00-3:50), MCCB 2102
+Wednesday, Period 3 (9:35-10:25), MAT 0010
 
 #### **Course Objectives**
 
