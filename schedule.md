@@ -31,6 +31,13 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Discussion leader:
  
 * *September 14: Working with time series data in R*
+    * Readings: [NEON Working with Time Series Data Tutorial](http://neondataskills.org/tutorial-series/tabular-time-series/)
+          * Before class install R Packages: ggplot2, lubridate, dplyr, scales, gridExtra, ggthemes, reshape2, zoo
+          * Look through the following tutorials
+               *  [Time Series 02](http://neondataskills.org/R/time-series-convert-date-time-class-POSIX/)
+               *  [Time Series 04](http://neondataskills.org/R/time-series-subset-dplyr/)
+               *  [Time Series 05](http://neondataskills.org/R/time-series-plot-ggplot/)
+               *  [Julian Days](http://neondataskills.org/R/julian-day-conversion/)
 
 * September 20: Changes in phenology
     * Reading [Modern population dynamics](https://doi.org/10.1016/j.tree.2007.04.003)
