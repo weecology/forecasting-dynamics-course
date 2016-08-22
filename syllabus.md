@@ -22,16 +22,15 @@ Wednesday, Period 3 (9:35-10:25), MAT 0010
 #### **Course Objectives**
 
 The goal of this class is to provide students a basic understanding of
-biodiversity patterns often studied in the field of ecology. By the end
-of the semester, students will:
+how populations and communities change through time and to provide fundamental 
+concepts of how to forecast those changes. By the end of the semester, students will:
 
-1)  Have an appreciation of the complexity of term “biodiversity”
+1)  Have an appreciation of the dynamics of species and communities.
 
-2)  Have a broad understanding of widely studied biodiversity patterns
-    that exist at different spatial and temporal scales
+2)  Understand the basic concepts of forecasting that apply across fields 
+    and the challenges within ecology
 
-3)  Become familiar with various ecological processes that generate and
-    help maintain biodiversity patterns
+3)  Have a basic understanding of working with time series data
 
 #### **General Course Structure and Expectations**
 
