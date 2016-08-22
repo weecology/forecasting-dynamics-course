@@ -50,15 +50,13 @@ discussion during the semester
 
 #### **Attendance Policy**
 
-I know that graduate students have field work or conferences they need
-to miss class for and sometimes illnesses happen. Of the 24 days of
-lecture/discussion scheduled, I am counting 22. This provides 2 days
-that can be missed without impacts on your grade. Additional missed
-discussions can be made up by providing a written summary of the
+Two days of discussion can be missed without impacts on your grade. 
+Class activities can be made-up on the student's time within a week. 
+Additional missed discussions can be made up by providing a written summary of the
 readings for the day(s) missed. Written summaries will involve
 1-paragraph summary of the main questions and findings for each assigned
-paper and 1 paragraph synthesizing what these papers mean in conjunction
-about biodiversity.
+paper and 1 paragraph applying the paper to how we think about either ecological 
+dynamics or forecasting.
 
 #### **Course Materials**
 
