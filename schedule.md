@@ -6,81 +6,92 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * August 23: Introduction. Can we forecast in ecology?
 
 * August 24: Why dynamics and forecasting? (reading)
- * Discussion leader: Morgan
- 
-* August 30: Modern global changes (reading)
- * Discussion leader:
- 
-* *August 31: Time series data* 
+    * Reading: [Ecological Forecasts: An Emerging Imperative](https://doi.org/10.1126/science.293.5530.657)
+    * Discussion leader: Morgan
 
-* September 6: Paleo dynamics - Pleistocene/Holocene transition
- * Discussion leader:
+* August 30: Modern global changes (reading)
+    * Reading: [Geology of mankind](https://doi.org/10.1038/415023a)
+    * Discussion leader:
  
-* September 7: Paleo dynamics - Novel species assemblages
- * Discussion leader:
+* August 31:  Paleo dynamics - Pleistocene/Holocene transition
+    * Reading: Just the Introduction of
+      [Ecological Change, Range Fluctuations and Population Dynamics during the Pleistocene](https://doi.org/10.1016/j.cub.2009.06.030)
+      and
+      [Spatial response of mammals to late Quaternary environmental fluctuations](http://ib.berkeley.edu/labs/barnosky/FAUNMAP_Science.pdf)
+    * Discussion leader: 
+
+* September 6: Paleo dynamics - Novel species assemblages
+    * Reading: [Novel climates, no-analog communities, and ecological surprises](https://doi.org/10.1890/070037)
+    * Discussion leader:
  
-* September 13: Modern range dynamics
- * Discussion leader:
+* *September 7: Time series data*
+ 
+* September 13: Ecological responses to global change
+    * Reading: [A globally coherent fingerprint of climate change impacts across natural systems](https://doi.org/10.1038/nature01286)
+    * Discussion leader:
  
 * *September 14: Working with time series data in R*
 
-* September 20: Modern population dynamics
- * Discussion leader:
+* September 20: Changes in phenology
+    * Reading [Modern population dynamics](https://doi.org/10.1016/j.tree.2007.04.003)
+    * Discussion leader:
  
 * *September 21: Basics of Time Series – Time Series Decomposition*
 
 * September 27: Regime shifts
- * Discussion leader:
+    * Discussion leader:
  
 * *September 28: Basics of Time Series – Time Series Autocorrelation*
 
 * October 4: Community Dynamics – Species Composition (temporal turnover, change
 as a constant
- * Discussion leader:
+    * Discussion leader:
  
 * October 5: Community Dynamics – Properties of Communities (things that can be
 more stable)
- * Discussion leader:
+    * Discussion leader:
  
 * October 11: Introduction to forecasting
- * Discussion leader:
- 
+    * Reading: FPP 1.4-1.7, Dietz introduction
+    * Discussion leader:
+
 * *October 12: Basics of forecasting in R*
+    * Reading: FPP 2.1-2.6 
 
 * October 18: Importance of uncertainty
- * Discussion leader:
+    * Discussion leader:
  
 * *October 19: Forecasting with uncertainty in R*
 
 * October 25: How do other fields forecasting - Weather
- * Discussion leader:
+    * Discussion leader:
  
 * October 26: How do other fields forecasting - Elections
- * Discussion leader:
+    * Discussion leader:
  
 * November 1: Short-term ecological forecasting
- * Discussion leader:
+    * Discussion leader:
  
 * *November 2: Example short-term ecological forecasting in R*
 
 * November 8: VOTE! NO CLASS
 
 * November 9: Process-based vs. data-driven models for forecasting
- * Discussion leader:
+    * Discussion leader:
  
 * November 15: Long-term ecological forecasting
- * Discussion leader:
+    * Discussion leader:
  
 * *November 16: Species distribution model based forecasting in R*
 
 * November 22: Operational forecasting
- * Discussion leader:
+    * Discussion leader:
  
 * November 29: Scenario based foreasting
- * Discussion leader:
+    * Discussion leader:
  
 * November 30: Ecological surprises
- * Discussion leader:
+    * Discussion leader:
  
 * December 8: Can we forecast in ecology (and what can we forecast)?
 
