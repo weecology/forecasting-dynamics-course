@@ -40,22 +40,23 @@ Activity days when laptops are required are noted in italics. Discussion leaders
                *  [Julian Days](http://neondataskills.org/R/julian-day-conversion/)
 
 * September 20: Changes in phenology
-    * Reading [Modern population dynamics](https://doi.org/10.1016/j.tree.2007.04.003)
+    * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
     * Discussion leader:
  
 * *September 21: Basics of Time Series – Time Series Decomposition*
 
 * September 27: Regime shifts
+    * Reading: [Catastrophic regime shifts in ecosystems: linking theory to observation](http://dx.doi.org/10.1016/j.tree.2003.09.002)
     * Discussion leader:
  
 * *September 28: Basics of Time Series – Time Series Autocorrelation*
 
-* October 4: Community Dynamics – Species Composition (temporal turnover, change
-as a constant
+* October 4: Community Dynamics – Species Composition and Richness 
+    * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
     * Discussion leader:
  
-* October 5: Community Dynamics – Properties of Communities (things that can be
-more stable)
+* October 5: Community Dynamics – Properties of Communities
+    * Reading: [Species-level and community-level responses to disturbance: a cross-community analysis](https://doi.org/10.1890/13-2250.1)
     * Discussion leader:
  
 * October 11: Introduction to forecasting
