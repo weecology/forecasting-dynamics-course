@@ -60,22 +60,13 @@ dynamics or forecasting.
 
 #### **Course Materials**
 
-1)  There is not a required or recommended text book for this class
+1)  The free online text book [Forecasting: Principles and Practice](https://www.otexts.org/fpp) 
+    will be used for some class activities, but is not required
 
-2)  All reading materials will be made available through the Canvas
-    e-learning system. You must have an active GatorLink ID to
-    access e-Learning. Should you encounter problems with your GatorLink
-    account or need assistance, contact GatorLink website
-    (http://gatorlink.ufl.edu ) or UF Computing Help Desk: The Hub,
-    392-HELP for assistance. If you need assistance with the e-Learning
-    system, please visit e-Learning Support Services home
-    page (https://elearning2.courses.ufl.edu/portal/help/main) or
-    contact e-Learning Support Team (UF Helpdesk HUB 132; Phone:(352)
-    392-HELP (4357); Email:learning-support@ufl.edu).
+2)  All reading materials will be made available through the [course website](https://weecology.github.io/forecasting-dynamics-course/Canvas). 
+    
 
-3)  Laptops: On specific days (notes on the course schedule) laptops or
-    tablets will be required to participate in literature search and
-    basic computational activities.
+3)  Laptops: On class activity days, laptops will be required for class.
 
 
 ### **UF Policies**
@@ -105,21 +96,6 @@ in all email messages, threaded discussions and chats.
 
 #### **Getting Help**
 
-For issues with technical difficulties for E-learning in Canvas, please
-contact the UF Help Desk at:
-
--   Learning-support@ufl.edu
-
--   \(352) 392-HELP - select option 2
-
--   https://lss.at.ufl.edu/help.shtml
-
-Any requests for make-ups due to technical issues MUST be accompanied by
-the ticket number received from LSS when the problem was reported to
-them. The ticket number will document the time and date of the problem.
-You MUST e-mail your instructor within 24 hours of the technical
-difficulty if you wish to request a make-up.
-
 Other resources are available at
 http://www.distance.ufl.edu/getting-help for:
 
@@ -136,7 +112,7 @@ please visit http://www.distance.ufl.edu/student-complaints to submit a
 complaint.
 
 Most importantly, if you are struggling for any reason please come talk
-to me and I will do my best to help.
+to us and we will do our best to help.
 
 #### **Grading scale**
 
@@ -165,7 +141,7 @@ to me and I will do my best to help.
 
 #### **Course Schedule**
 
-The details course schedule is available on the course site on Canvas.
+The details course schedule is available on the [course website](https://weecology.github.io/forecasting-dynamics-course/Canvas).
 
 **Disclaimer:** This syllabus represents our current plans and
 objectives. As we go through the semester, those plans may need to
