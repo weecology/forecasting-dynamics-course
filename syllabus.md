@@ -38,18 +38,15 @@ This course is a mixture class discussion of primary literature and
 hands-on experience involving some class activities. Completing assigned
 readings, intellectual engagement with topics, and discussion
 participation are the main ways students will learn in this class.
-Tuesdays are typically concept discussion days. Thursdays will be a mix
+Tuesdays are typically concept discussion days. Wednesdays will be a mix
 of tools or concept discussion. You are expected to come prepared to
 discuss the assigned papers.
 
 #### **Course Grading**
 
-60% of grade will be based on a class project and presentation (330
-points), 40% will be based on class participation in discussion\* (220
-points, 10 points/class day).
-
-\*Undergraduates uncomfortable with the expectation of participating in
-a graduate discussion should talk to me about a written alternative.
+80% of grade will be based on class participation, which includes leading one 
+discussion during the semester 
+20% will be based on completeion of class activities
 
 #### **Attendance Policy**
 
