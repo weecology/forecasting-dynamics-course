@@ -48,7 +48,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * September 27: Regime shifts
     * Reading: [Catastrophic regime shifts in ecosystems: linking theory to observation](http://dx.doi.org/10.1016/j.tree.2003.09.002)
-    * Discussion leader:
+    * Discussion leader: Daniel
  
 * *September 28: Basics of Time Series – Time Series Autocorrelation*
 
