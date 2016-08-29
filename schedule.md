@@ -17,7 +17,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * August 31:  Paleo dynamics - Pleistocene/Holocene transition
     * Reading: Just the Introduction of
       [Ecological Change, Range Fluctuations and Population Dynamics during the Pleistocene](https://doi.org/10.1016/j.cub.2009.06.030)
-      and
+      and all of
       [Spatial response of mammals to late Quaternary environmental fluctuations](http://ib.berkeley.edu/labs/barnosky/FAUNMAP_Science.pdf)
     * Discussion leader: 
 
