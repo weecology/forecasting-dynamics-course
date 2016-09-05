@@ -61,48 +61,65 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Discussion leader:
  
 * October 11: Introduction to forecasting
-    * Reading: FPP 1.4-1.7, Dietz introduction
+    * Reading:
+      [Forecasting Principles & Process Chapter 1](https://www.otexts.org/fpp/1)
+      and Dietz Chapter 1
     * Discussion leader:
 
 * *October 12: Basics of forecasting in R*
-    * Reading: FPP 2.1-2.6 
+    * Reading: [Forecasting Principles & Process Chapter 2.1-2.6](https://www.otexts.org/fpp/2)
 
 * October 18: Importance of uncertainty
+    * Reading: Dietz Chapter 2
     * Discussion leader:
  
 * *October 19: Forecasting with uncertainty in R*
+    * Reading: [Forecasting Principles & Process Chapter 2.7](https://www.otexts.org/fpp/2/7)
 
 * October 25: How do other fields forecasting - Weather
+    * [The quite revolution of numerical weather prediction](https://doi.org/10.1038/nature14956)
     * Discussion leader:
  
 * October 26: How do other fields forecasting - Elections
+    * Reading:
+[The fivethirtyeight.com Predictive Model of the 2008 Presidential Election](https://www.causeweb.org/cause/archive/stats/STATS_50.pdf)
     * Discussion leader:
  
 * November 1: Short-term ecological forecasting
+    * Reading: [State-space modeling to support management of brucellosis in the Yellowstone bison population](https://doi.org/10.1890/14-1413.1) 
     * Discussion leader:
  
-* *November 2: Example short-term ecological forecasting in R*
+* *November 2: Example short-term forecasting in R*
 
 * November 8: VOTE! NO CLASS
 
 * November 9: Process-based vs. data-driven models for forecasting
+    * Reading:
+[Model-free forecasting outperforms the correct mechanistic model for simulated and experimental data](https://doi.org/10.1073/pnas.1216076110) +
+[Comment](https://doi.org/10.1073/pnas.1308603110) + [Response](https://doi.org/10.1073/pnas.1312461110)
     * Discussion leader:
- 
+
 * November 15: Long-term ecological forecasting
+    * Reading: [Climatic Associations of British Species Distributions Show Good Transferability in Time but Low Predictive Accuracy for Range Change](http://dx.doi.org/10.1371/journal.pone.0040212) 
     * Discussion leader:
  
 * *November 16: Species distribution model based forecasting in R*
 
 * November 22: Operational forecasting
+    * Reading:
+      [Forecasting Fire Season Severity in South America Using Sea Surface Temperature Anomalies](https://doi.org/10.1126/science.1209472) +
+      [2016 Forecast of Fire Season Severity](http://www.ess.uci.edu/~amazonfirerisk/ForecastWeb/SAMFSS2016.html)
     * Discussion leader:
  
 * November 29: Scenario based foreasting
+    * Reading: [Scenario Planning: a Tool for Conservation in an Uncertain World](10.1046/j.1523-1739.2003.01491.x)
     * Discussion leader:
  
 * November 30: Ecological surprises
     * Reading: [Understanding and Predicting Ecological Dynamics: Are Major Surprises Inevitable?](https://doi.org/10.1890/07-0965.1)
     * Discussion leader:
- 
+
 * December 8: Can we forecast in ecology (and what can we forecast)?
+    * Reading: [Prediction, precaution, and policy under global change](https://doi.org/10.1126/science.1261824)
 
 * December 9: Can we forecast in ecology (and what can we forecast)?
