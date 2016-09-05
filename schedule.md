@@ -100,6 +100,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Discussion leader:
  
 * November 30: Ecological surprises
+    * Reading: [Understanding and Predicting Ecological Dynamics: Are Major Surprises Inevitable?](https://doi.org/10.1890/07-0965.1)
     * Discussion leader:
  
 * December 8: Can we forecast in ecology (and what can we forecast)?
