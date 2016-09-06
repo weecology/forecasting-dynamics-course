@@ -83,7 +83,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * October 26: How do other fields forecasting - Elections
     * Reading:
 [The fivethirtyeight.com Predictive Model of the 2008 Presidential Election](https://www.causeweb.org/cause/archive/stats/STATS_50.pdf)
-    * Discussion leader:
+    * Discussion leader: Joe
  
 * November 1: Short-term ecological forecasting
     * Reading: [State-space modeling to support management of brucellosis in the Yellowstone bison population](https://doi.org/10.1890/14-1413.1) 
