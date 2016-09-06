@@ -113,7 +113,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
  
 * November 29: Scenario based foreasting
     * Reading: [Scenario Planning: a Tool for Conservation in an Uncertain World](10.1046/j.1523-1739.2003.01491.x)
-    * Discussion leader:
+    * Discussion leader: Michael
  
 * November 30: Ecological surprises
     * Reading: [Understanding and Predicting Ecological Dynamics: Are Major Surprises Inevitable?](https://doi.org/10.1890/07-0965.1)
