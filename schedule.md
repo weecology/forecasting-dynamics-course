@@ -97,7 +97,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Reading:
 [Model-free forecasting outperforms the correct mechanistic model for simulated and experimental data](https://doi.org/10.1073/pnas.1216076110) +
 [Comment](https://doi.org/10.1073/pnas.1308603110) + [Response](https://doi.org/10.1073/pnas.1312461110)
-    * Discussion leader:
+    * Discussion leader: Brad
 
 * November 15: Long-term ecological forecasting
     * Reading: [Climatic Associations of British Species Distributions Show Good Transferability in Time but Low Predictive Accuracy for Range Change](http://dx.doi.org/10.1371/journal.pone.0040212) 
