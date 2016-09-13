@@ -54,7 +54,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * October 4: Community Dynamics – Species Composition and Richness 
     * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
-    * Discussion leader:
+    * Discussion leader: Rich
  
 * October 5: Community Dynamics – Properties of Communities
     * Reading: [Species-level and community-level responses to disturbance: a cross-community analysis](https://doi.org/10.1890/13-2250.1)
