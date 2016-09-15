@@ -71,7 +71,7 @@ must talk to the instructors beforehand.
 1)  The free online text book [Forecasting: Principles and Practice](https://www.otexts.org/fpp) 
     will be used for some class activities, but is not required
 
-2)  All reading materials will be made available through the [course website](https://weecology.github.io/forecasting-dynamics-course/Canvas). 
+2)  All reading materials will be made available through the [course website](https://weecology.github.io/forecasting-dynamics-course/). 
     
 
 3)  Laptops: On class activity days, laptops will be required for class.
