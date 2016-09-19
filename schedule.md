@@ -45,6 +45,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Discussion leader: Sergio
  
 * *September 21: Basics of Time Series – Time Series Decomposition*
+      * Bring computers. Install the R package: forecast
 
 * September 27: Regime shifts
     * Reading: [Catastrophic regime shifts in ecosystems: linking theory to observation](http://dx.doi.org/10.1016/j.tree.2003.09.002)
