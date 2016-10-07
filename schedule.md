@@ -64,18 +64,15 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * October 11: Introduction to forecasting
     * Reading:
       [Forecasting Principles & Process Chapter 1](https://www.otexts.org/fpp/1)
-      and Dietz Chapter 1
     * Discussion leader:
 
 * *October 12: Basics of forecasting in R*
-    * Reading: [Forecasting Principles & Process Chapter 2.1-2.6](https://www.otexts.org/fpp/2)
 
 * October 18: Importance of uncertainty
     * Reading: Dietz Chapter 2
     * Discussion leader:
  
 * *October 19: Forecasting with uncertainty in R*
-    * Reading: [Forecasting Principles & Process Chapter 2.7](https://www.otexts.org/fpp/2/7)
 
 * October 25: How do other fields forecasting - Weather
     * [The quite revolution of numerical weather prediction](https://doi.org/10.1038/nature14956)
