@@ -66,13 +66,13 @@ Activity days when laptops are required are noted in italics. Discussion leaders
       [Forecasting Principles & Process Chapter 1](https://www.otexts.org/fpp/1)
     * Discussion leader:
 
-* *October 12: Basics of forecasting in R*
+* *October 12: Introduction to time-series modeling in R*
 
 * October 18: Importance of uncertainty
     * Reading: Dietz Chapter 2
-    * Discussion leader:
+    * Discussion leader: Ethan
  
-* *October 19: Forecasting with uncertainty in R*
+* *October 19: Introduction to forecasting in R*
 
 * October 25: How do other fields forecasting - Weather
     * [The quite revolution of numerical weather prediction](https://doi.org/10.1038/nature14956)
@@ -87,7 +87,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Reading: [State-space modeling to support management of brucellosis in the Yellowstone bison population](https://doi.org/10.1890/14-1413.1) 
     * Discussion leader: Wesley
  
-* *November 2: Example short-term forecasting in R*
+* *November 2: Evaluating forecasts*
 
 * November 8: VOTE! NO CLASS
 
