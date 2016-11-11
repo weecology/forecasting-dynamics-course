@@ -91,17 +91,17 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * November 8: VOTE! NO CLASS
 
-* November 9: Process-based vs. data-driven models for forecasting
+* November 9: In-promptu discussion on the 538 model and forecasting issues with the 2016 election
+
+* November 15: Process-based vs. data-driven models for forecasting
     * Reading:
 [Model-free forecasting outperforms the correct mechanistic model for simulated and experimental data](https://doi.org/10.1073/pnas.1216076110) +
 [Comment](https://doi.org/10.1073/pnas.1308603110) + [Response](https://doi.org/10.1073/pnas.1312461110)
     * Discussion leader: Brad
 
-* November 15: Long-term ecological forecasting
+* November 16: Long-term ecological forecasting
     * Reading: [Climatic Associations of British Species Distributions Show Good Transferability in Time but Low Predictive Accuracy for Range Change](http://dx.doi.org/10.1371/journal.pone.0040212) 
     * Discussion leader:
- 
-* *November 16: Species distribution model based forecasting in R*
 
 * November 22: Operational forecasting
     * Reading:
