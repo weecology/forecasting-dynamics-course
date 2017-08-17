@@ -15,9 +15,9 @@ title: Syllabus
 												 
 #### **Times and Locations**
 
-Tuesday, Period 5 (11:45-12:35), MCCA 3194
+Tuesday, Period 5 (11:45-12:35), MCCB 2102
 
-Wednesday, Period 3 (9:35-10:25), MAT 0010
+Thursday, Period 5 (11:45-12:35), MCCB 2102
 
 #### **Course Objectives**
 
@@ -38,7 +38,7 @@ This course is a mixture class discussion of primary literature and
 hands-on experience involving some class activities. Completing assigned
 readings, intellectual engagement with topics, and discussion
 participation are the main ways students will learn in this class.
-Tuesdays are typically concept discussion days. Wednesdays will be a mix
+Tuesdays are typically concept discussion days. Thursdays will be a mix
 of tools or concept discussion. You are expected to come prepared to
 discuss the assigned papers.
 
