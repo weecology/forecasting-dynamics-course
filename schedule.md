@@ -8,29 +8,29 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * August 24: Why dynamics and forecasting? (reading)
     * Reading: [Ecological Forecasts: An Emerging Imperative](https://doi.org/10.1126/science.293.5530.657)
-    * Discussion leader: Morgan
+    * Discussion leader: Ethan 
 
 * August 29: Paleo dynamics - Pleistocene/Holocene transition
     * Reading: Just the Introduction of
       [Ecological Change, Range Fluctuations and Population Dynamics during the Pleistocene](https://doi.org/10.1016/j.cub.2009.06.030)
       and all of
     * Reading: [Novel climates, no-analog communities, and ecological surprises](https://doi.org/10.1890/070037)
-    * Discussion leader:
+    * Discussion leader: Morgan
  
-* * August 31: Time series data*
-    * Discussion leader:
+* *August 31: Time series data*
 
 * September 5: Modern Range Shifts
+    * Reading: [Poleward shifts in geographical ranges of butterfly species associated with regional warming])https://doi.org/10.1038/21181)
     * Discussion leader:
  
 * *September 7: Working with time series data in R*
     * Readings: [NEON Working with Time Series Data Tutorial](http://neondataskills.org/tutorial-series/tabular-time-series/)
-          * Before class install R Packages: ggplot2, lubridate, dplyr, scales, gridExtra, ggthemes, reshape2, zoo
-          * Look through the following tutorials
-               *  [Time Series 02](http://neondataskills.org/R/time-series-convert-date-time-class-POSIX/)
-               *  [Time Series 04](http://neondataskills.org/R/time-series-subset-dplyr/)
-               *  [Time Series 05](http://neondataskills.org/R/time-series-plot-ggplot/)
-               *  [Julian Days](http://neondataskills.org/R/julian-day-conversion/)
+        * Before class install R Packages: ggplot2, lubridate, dplyr, scales, gridExtra, ggthemes, reshape2, zoo
+        * Look through the following tutorials
+            *  [Time Series 02](http://neondataskills.org/R/time-series-convert-date-time-class-POSIX/)
+            *  [Time Series 04](http://neondataskills.org/R/time-series-subset-dplyr/)
+            *  [Time Series 05](http://neondataskills.org/R/time-series-plot-ggplot/)
+            *  [Julian Days](http://neondataskills.org/R/julian-day-conversion/)
  
 * September 12: Changes in phenology
     * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
@@ -39,14 +39,15 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *September 14: Basics of Time Series – Time Series Decomposition*
       * Bring computers. Install the R package: forecast
 
-* September 19: Black Swans
+* September 19: Ecological Suprises
+    * Reading: [Black-swan events in animal populations](https://doi.org/10.1073/pnas.1611525114)
     * Discussion leader: 
  
 * *September 21: Basics of Time Series – Time Series Autocorrelation*
 
 * September 26: Regime shifts
-    * Reading: Christensen et al 
-    * Discussion leader: 
+    * Reading: [Repeated regime shifts in a desert rodent community](https://doi.org/10.1101/163931)
+    * Discussion leader: Morgan
  
 * *September 28: Introduction to time-series modeling in R*
 
@@ -91,13 +92,13 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 [Comment](https://doi.org/10.1073/pnas.1308603110) + [Response](https://doi.org/10.1073/pnas.1312461110)
     * Discussion leader: 
 
-* *November 9: EDM Demo*
+* *November 9: Empirical Dynamic Modeling*
 
 * November 14: Long-term ecological forecasting
     * Reading: [Climatic Associations of British Species Distributions Show Good Transferability in Time but Low Predictive Accuracy for Range Change](http://dx.doi.org/10.1371/journal.pone.0040212) 
     * Discussion leader:
 
-* *November 16: SDM Demo*
+* *November 16: Species Distribution Modeling*
 
 * November 21: Scenario based foreasting
     * Reading: [Scenario Planning: a Tool for Conservation in an Uncertain World](https://doi.org/10.1046/j.1523-1739.2003.01491.x)
