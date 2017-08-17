@@ -5,6 +5,7 @@ title: Schedule
 Activity days when laptops are required are noted in italics. Discussion leaders are listed below each topic.
 
 * August 22: Introduction. Can we forecast in ecology?
+    * Discussion Leader: Ethan and Morgan
 
 * August 24: Why dynamics and forecasting? (reading)
     * Reading: [Ecological Forecasts: An Emerging Imperative](https://doi.org/10.1126/science.293.5530.657)
@@ -80,13 +81,13 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 [The fivethirtyeight.com Predictive Model of the 2008 Presidential Election](https://www.causeweb.org/cause/archive/stats/STATS_50.pdf)
     * Discussion leader: 
  
-* October 31: Short-term ecological forecasting
+* October 31: Short-term ecological forecasting [quantitative]
     * Reading: [State-space modeling to support management of brucellosis in the Yellowstone bison population](https://doi.org/10.1890/14-1413.1) 
     * Discussion leader: 
  
 * *November 2: State-space model*
 
-* November 7: Process-based vs. data-driven models for forecasting
+* November 7: Process-based vs. data-driven models for forecasting [quantitative]
     * Reading:
 [Model-free forecasting outperforms the correct mechanistic model for simulated and experimental data](https://doi.org/10.1073/pnas.1216076110) +
 [Comment](https://doi.org/10.1073/pnas.1308603110) + [Response](https://doi.org/10.1073/pnas.1312461110)
@@ -111,9 +112,10 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * November 30: Example of Operational Forecasting
     * Reading: [Forecasting Fire Season Severity in South America Using Sea Surface Temperature Anomalies](https://doi.org/10.1126/science.1209472) +
     * Reading: [2016 Forecast of Fire Season Severity](http://www.ess.uci.edu/~amazonfirerisk/ForecastWeb/SAMFSS2016.html)
-    Discussion: 
+    * Discussion Leader: 
 
 * December 5: Can we forecast in ecology (and what can we forecast)?
     * Reading: [Prediction, precaution, and policy under global change](https://doi.org/10.1126/science.1261824)
+    * Discussion Leader: Ethan and Morgan
 
 
