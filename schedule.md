@@ -73,7 +73,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *October 19: Evaluating forecasts*
 
 * October 24: How do other fields forecast - Weather
-    * [The quite revolution of numerical weather prediction](https://doi.org/10.1038/nature14956)
+    * [The quiet revolution of numerical weather prediction](https://doi.org/10.1038/nature14956)
     * Discussion leader:
  
 * October 26: How do other fields forecast - Elections
