@@ -62,13 +62,13 @@ Activity days when laptops are required are noted in italics. Discussion leaders
  
 * October 10: Introduction to forecasting
     * Reading: [Forecasting Principles & Process Chapter 1](https://www.otexts.org/fpp/1)
-    * Discussion leader:
+    * Discussion leader: Ethan
 
 * *October 12: Introduction to forecasting in R*
 
 * October 17: Importance of uncertainty
     * Reading: Dietz Chapter 2
-    * Discussion leader: Ethan
+    * Discussion leader: 
  
 * *October 19: Evaluating forecasts*
 
@@ -103,7 +103,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * November 21: Scenario based foreasting
     * Reading: [Scenario Planning: a Tool for Conservation in an Uncertain World](https://doi.org/10.1046/j.1523-1739.2003.01491.x)
-    * Discussion leader: Michael
+    * Discussion leader:
     
 * November 28: Operational forecasting
     * Reading: PNAS ms     
