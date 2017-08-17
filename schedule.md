@@ -50,7 +50,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Reading: [Repeated regime shifts in a desert rodent community](https://doi.org/10.1101/163931)
     * Discussion leader: Morgan
  
-* *September 28: Introduction to time-series modeling in R*
+* *September 28: Introduction to time-series modeling*
 
 * October 3: Community Dynamics – Species Composition and Richness 
     * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
@@ -87,13 +87,12 @@ Activity days when laptops are required are noted in italics. Discussion leaders
  
 * *November 2: State-space model*
 
-* November 7: Process-based vs. data-driven models for forecasting [quantitative]
-    * Reading:
-[Model-free forecasting outperforms the correct mechanistic model for simulated and experimental data](https://doi.org/10.1073/pnas.1216076110) +
-[Comment](https://doi.org/10.1073/pnas.1308603110) + [Response](https://doi.org/10.1073/pnas.1312461110)
+* November 7: Data-driven models for forecasting [quantitative]
+    * Reading: [Equation-free mechanistic ecosystem forecasting using empirical dynamic modeling](https://doi.org/10.1073/pnas.1417063112) 
+    * YouTube video: https://www.youtube.com/watch?v=fevurdpiRYg
     * Discussion leader: 
 
-* *November 9: Empirical Dynamic Modeling*
+* *November 9: Empirical Dynamic Modeling Tutorial*
 
 * November 14: Long-term ecological forecasting
     * Reading: [Climatic Associations of British Species Distributions Show Good Transferability in Time but Low Predictive Accuracy for Range Change](http://dx.doi.org/10.1371/journal.pone.0040212) 
