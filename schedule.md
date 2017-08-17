@@ -97,23 +97,22 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Reading: [Climatic Associations of British Species Distributions Show Good Transferability in Time but Low Predictive Accuracy for Range Change](http://dx.doi.org/10.1371/journal.pone.0040212) 
     * Discussion leader:
 
-* November 16: 
+* *November 16: SDM Demo*
 
 * November 21: Scenario based foreasting
     * Reading: [Scenario Planning: a Tool for Conservation in an Uncertain World](https://doi.org/10.1046/j.1523-1739.2003.01491.x)
     * Discussion leader: Michael
     
-* November 28: Ecological surprises
-    * Reading: [Understanding and Predicting Ecological Dynamics: Are Major Surprises Inevitable?](https://doi.org/10.1890/07-0965.1)
+* November 28: Operational forecasting
+    * Reading: PNAS ms     
     * Discussion leader: 
-
  
-* November 30: Can we forecast in ecology (and what can we forecast)?
-    * Reading: [Prediction, precaution, and policy under global change](https://doi.org/10.1126/science.1261824)
+* November 30: Example of Operational Forecasting
+    * Reading: [Forecasting Fire Season Severity in South America Using Sea Surface Temperature Anomalies](https://doi.org/10.1126/science.1209472) +
+    * Reading: [2016 Forecast of Fire Season Severity](http://www.ess.uci.edu/~amazonfirerisk/ForecastWeb/SAMFSS2016.html)
+    Discussion: 
 
 * December 5: Can we forecast in ecology (and what can we forecast)?
+    * Reading: [Prediction, precaution, and policy under global change](https://doi.org/10.1126/science.1261824)
 
-Operational forecasting
-    * Reading:
-      [Forecasting Fire Season Severity in South America Using Sea Surface Temperature Anomalies](https://doi.org/10.1126/science.1209472) +
-      [2016 Forecast of Fire Season Severity](http://www.ess.uci.edu/~amazonfirerisk/ForecastWeb/SAMFSS2016.html)
+
