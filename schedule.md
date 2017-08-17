@@ -21,7 +21,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *August 31: Time series data*
 
 * September 5: Modern Range Shifts
-    * Reading: [Poleward shifts in geographical ranges of butterfly species associated with regional warming])https://doi.org/10.1038/21181)
+    * Reading: [Poleward shifts in geographical ranges of butterfly species associated with regional warming](https://doi.org/10.1038/21181)
     * Discussion leader:
  
 * *September 7: Working with time series data in R*
