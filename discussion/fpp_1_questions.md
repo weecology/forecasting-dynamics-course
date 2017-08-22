@@ -1,3 +1,7 @@
+---
+layout: nil
+---
+
 ## What can we forecast?
 
 * The reading suggests that three things influence our ability to forecast:
