@@ -12,10 +12,22 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Discussion leader: Ethan 
 
 * August 29: Paleo dynamics - Pleistocene/Holocene transition
-    * Reading: Just the Introduction of
-      [Ecological Change, Range Fluctuations and Population Dynamics during the Pleistocene](https://doi.org/10.1016/j.cub.2009.06.030)
-      and all of
-    * Reading: [Novel climates, no-analog communities, and ecological surprises](https://doi.org/10.1890/070037)
+    * Reading: Just the Introduction of [Ecological Change, Range Fluctuations and Population Dynamics during the Pleistocene](https://doi.org/10.1016/j.cub.2009.06.030)
+        * What is the Pleistocene?
+        * How is the Pleistocene similar but different to today?
+    * Reading: Read all of [Novel climates, no-analog communities, and ecological surprises](https://doi.org/10.1890/070037)
+        * How did communities change in the Pleistocene?
+        * WHat seems to have caused that?
+        * What was different about climate in the Pleistocene?
+        * What is a no-analog community?
+        * How do no-analog communities arise?
+        * How did the authors assess whether this would be a problem in the future?
+        * What are the challenges for predicting responses to globally novel climates?
+        * What's the difference between a globally novel and a regionally novel climate?
+        * Why are regionally novel climates a challenge for species?
+        * What area of the world will be the most difficult to predict the dynamics of?
+        * What do changes in the past tell us about what to expect in the future?
+        * What does the past tell us about the challenges we may face with forecasting?
     * Discussion leader: Morgan
  
 * *August 31: Time series data*
