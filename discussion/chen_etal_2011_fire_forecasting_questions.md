@@ -1,3 +1,7 @@
+---
+layout: nil
+---
+
 # Underlying paper
 
 * What are El Niño and the Atlantic Multidecadal Oscillation?

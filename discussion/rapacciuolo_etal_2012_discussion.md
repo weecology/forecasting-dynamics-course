@@ -1,3 +1,7 @@
+---
+layout: nil
+---
+
 # Questions for Rapacciuolo et al. 2012 SDM forecast paper
 
 ## Data
