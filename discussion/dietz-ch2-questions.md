@@ -1,3 +1,7 @@
+---
+layout: nil
+---
+
 ## Adding sources of uncertainty
 
 * What is the difference between uncertainties and sources of variability?

@@ -1,3 +1,7 @@
+---
+layout: nil
+---
+
 # Evaluating forecasts
 
 ## Steps in forecasting
