@@ -22,7 +22,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * September 5: Modern Range Shifts
     * Reading: [Poleward shifts in geographical ranges of butterfly species associated with regional warming](https://doi.org/10.1038/21181)
-    * Discussion leader:
+    * Discussion leader: Morgan
  
 * *September 7: Working with time series data in R*
     * Readings: [NEON Working with Time Series Data Tutorial](http://neondataskills.org/tutorial-series/tabular-time-series/)
@@ -35,7 +35,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
  
 * September 12: Changes in phenology
     * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
-    * Discussion leader: 
+    * Discussion leader: Morgan
  
 * *September 14: Basics of Time Series – Time Series Decomposition*
       * Bring computers. Install the R package: forecast
@@ -54,11 +54,11 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * October 3: Community Dynamics – Species Composition and Richness 
     * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
-    * Discussion leader: 
+    * Discussion leader: Morgan
  
 * October 5: Community Dynamics – Properties of Communities
     * Reading: [Species-level and community-level responses to disturbance: a cross-community analysis](https://doi.org/10.1890/13-2250.1)
-    * Discussion leader: Morgan
+    * Discussion leader:
  
 * October 10: Introduction to forecasting
     * Reading: [Forecasting Principles & Process Chapter 1](https://www.otexts.org/fpp/1)
@@ -68,7 +68,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * October 17: Importance of uncertainty
     * Reading: Dietz Chapter 2
-    * Discussion leader: 
+    * Discussion leader: Ethan
  
 * *October 19: Evaluating forecasts*
 
@@ -101,12 +101,13 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *November 16: Species Distribution Modeling*
 
 * November 21: Scenario based foreasting
+
     * Reading: [Scenario Planning: a Tool for Conservation in an Uncertain World](https://doi.org/10.1046/j.1523-1739.2003.01491.x)
-    * Discussion leader:
+    * Discussion leader: Ethan
     
 * November 28: Operational forecasting
-    * Reading: PNAS ms     
-    * Discussion leader: 
+    * Reading: PNAS ms
+    * Discussion leader: Ethan
  
 * November 30: Example of Operational Forecasting
     * Reading: [Forecasting Fire Season Severity in South America Using Sea Surface Temperature Anomalies](https://doi.org/10.1126/science.1209472) +
