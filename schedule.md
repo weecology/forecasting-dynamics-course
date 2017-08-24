@@ -10,7 +10,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * August 24: Why dynamics and forecasting? (reading)
     * Reading: [Ecological Forecasts: An Emerging Imperative](https://doi.org/10.1126/science.293.5530.657)
     * Discussion leader: Ethan
-	* [Discussion questions]({{ site.baseurl }}/discussion/clark_etal_2001)
+        * [Discussion questions]({{ site.baseurl }}/discussion/clark_etal_2001)
 
 * August 29: Paleo dynamics - Pleistocene/Holocene transition
     * Reading: Just the Introduction of [Ecological Change, Range Fluctuations and Population Dynamics during the Pleistocene](https://doi.org/10.1016/j.cub.2009.06.030)
