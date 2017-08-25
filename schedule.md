@@ -83,7 +83,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
  
 * October 31: Short-term ecological forecasting [quantitative]
     * Reading: [State-space modeling to support management of brucellosis in the Yellowstone bison population](https://doi.org/10.1890/14-1413.1) 
-    * Discussion leader: 
+    * Discussion leader: Maria Paula
  
 * *November 2: State-space model*
 
