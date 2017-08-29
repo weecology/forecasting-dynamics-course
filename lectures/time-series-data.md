@@ -33,7 +33,7 @@ title: Time Series Data
 	* LTERs
 	* STRI Big Plots
 	* Fisheries
-* "Single Investiagor"
+* "Single Investigator"
     * Ecological Archives - Portal, Adler, Goheen, Clarks
 
 
