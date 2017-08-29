@@ -10,26 +10,13 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * August 24: Why dynamics and forecasting? (reading)
     * Reading: [Ecological Forecasts: An Emerging Imperative](https://doi.org/10.1126/science.293.5530.657)
     * Discussion leader: Ethan
-	* [Discussion questions]({{ site.baseurl }}/discussion/clark_etal_2001)
+        * [Discussion questions]({{ site.baseurl }}/discussion/clark_etal_2001)
 
 * August 29: Paleo dynamics - Pleistocene/Holocene transition
     * Reading: Just the Introduction of [Ecological Change, Range Fluctuations and Population Dynamics during the Pleistocene](https://doi.org/10.1016/j.cub.2009.06.030)
-        * What is the Pleistocene?
-        * How is the Pleistocene similar but different to today?
     * Reading: Read all of [Novel climates, no-analog communities, and ecological surprises](https://doi.org/10.1890/070037)
-        * How did communities change in the Pleistocene?
-        * WHat seems to have caused that?
-        * What was different about climate in the Pleistocene?
-        * What is a no-analog community?
-        * How do no-analog communities arise?
-        * How did the authors assess whether this would be a problem in the future?
-        * What are the challenges for predicting responses to globally novel climates?
-        * What's the difference between a globally novel and a regionally novel climate?
-        * Why are regionally novel climates a challenge for species?
-        * What area of the world will be the most difficult to predict the dynamics of?
-        * What do changes in the past tell us about what to expect in the future?
-        * What does the past tell us about the challenges we may face with forecasting?
     * Discussion leader: Morgan
+        * [Discussion questions]({{ site.baseurl }}/discussion/paleodynamics)
  
 * *August 31: Time series data*
 
@@ -96,7 +83,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
  
 * October 31: Short-term ecological forecasting [quantitative]
     * Reading: [State-space modeling to support management of brucellosis in the Yellowstone bison population](https://doi.org/10.1890/14-1413.1) 
-    * Discussion leader: 
+    * Discussion leader: Maria Paula
  
 * *November 2: State-space model*
 
@@ -109,7 +96,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * November 14: Long-term ecological forecasting
     * Reading: [Climatic Associations of British Species Distributions Show Good Transferability in Time but Low Predictive Accuracy for Range Change](http://dx.doi.org/10.1371/journal.pone.0040212) 
-    * Discussion leader:
+    * Discussion leader: Renata
 
 * *November 16: Species Distribution Modeling*
 
