@@ -3,9 +3,9 @@ layout: nil
 title: Time Series Data
 ---
 
-### Thinking about ecological time-series data
+### Thinking about ecological data available for forecasting
 
-* Ask group to brain storm types of time-series data
+* Ask group to brain storm types of data suitable for ecological forecasting
 * Talk about each type as it is brought up
 * Give or ask for examples of each data type as it is brought up
 * Write them down on the board in a horizontal line from "further back in
