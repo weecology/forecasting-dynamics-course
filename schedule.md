@@ -23,6 +23,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * September 5: Modern Range Shifts
     * Reading: [Poleward shifts in geographical ranges of butterfly species associated with regional warming](https://doi.org/10.1038/21181)
     * Discussion leader: Morgan
+        * [Discussion questions]({{ site.baseurl }}/discussion/rangeshifts)
  
 * *September 7: Working with time series data in R*
     * Readings: [NEON Working with Time Series Data Tutorial](http://neondataskills.org/tutorial-series/tabular-time-series/)
