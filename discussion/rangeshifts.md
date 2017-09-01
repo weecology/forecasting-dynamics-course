@@ -1,4 +1,6 @@
-
+---
+layout: nil
+---
 #### Comparing the Past to the Present
 1. Based on the Pleistocene papers from last week, how do we expect geographic ranges to shift in response to climate change?
 2. What are Parmesan et al seeing in range shifts today?
