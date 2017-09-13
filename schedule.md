@@ -34,80 +34,80 @@ Activity days when laptops are required are noted in italics. Discussion leaders
             *  [Time Series 05](http://neondataskills.org/R/time-series-plot-ggplot/)
             *  [Julian Days](http://neondataskills.org/R/julian-day-conversion/)
  
-* September 12: Changes in phenology
+* September 12: CLASS CANCELLED - HURRICANE IRMA
+ 
+* September 14: CLASS CANCELLED - HURRICANE IRMA
+
+* September 19: Changes in phenology
     * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
     * Discussion leader: Morgan
- 
-* *September 14: Basics of Time Series – Time Series Decomposition*
+     
+* *September 21: Basics of Time Series – Time Series Decomposition*
       * Bring computers. Install the R package: forecast
 
-* September 19: Ecological Suprises
+* September 26: Ecological Suprises
     * Reading: [Black-swan events in animal populations](https://doi.org/10.1073/pnas.1611525114)
     * Discussion leader: 
- 
-* *September 21: Basics of Time Series – Time Series Autocorrelation*
+     
+* *September 28: Basics of Time Series – Time Series Autocorrelation*
 
-* September 26: Regime shifts
+* October 3: Regime shifts
     * Reading: [Repeated regime shifts in a desert rodent community](https://doi.org/10.1101/163931)
     * Discussion leader: Morgan
  
-* *September 28: Introduction to time-series modeling*
-
-* October 3: Community Dynamics – Species Composition and Richness 
+* October 5: Introduction to time-series modeling*
+ 
+* October 10: Community Dynamics – Species Composition and Richness 
     * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
     * Discussion leader: Morgan
- 
-* October 5: Community Dynamics – Properties of Communities
+       
+* October 12: Community Dynamics – Properties of Communities
     * Reading: [Species-level and community-level responses to disturbance: a cross-community analysis](https://doi.org/10.1890/13-2250.1)
     * Discussion leader: Ellen
- 
-* October 10: Introduction to forecasting
+
+* October 17: Introduction to forecasting
     * Reading: [Forecasting Principles & Process Chapter 1](https://www.otexts.org/fpp/1)
     * Discussion leader: Ethan
 
-* *October 12: Introduction to forecasting in R*
+* *October 19: Introduction to forecasting in R*
 
-* October 17: Importance of uncertainty
+
+* October 24: Importance of uncertainty
     * Reading: Dietz Chapter 2
     * Discussion leader: Ethan
+    
+   
  
-* *October 19: Evaluating forecasts*
+* *October 26: Evaluating forecasts*
 
-* October 24: How do other fields forecast - Weather
+* October 31:  How do other fields forecast - Weather
     * [The quiet revolution of numerical weather prediction](https://doi.org/10.1038/nature14956)
     * Discussion leader:
- 
-* October 26: How do other fields forecast - Elections
+    
+* November 2: How do other fields forecast - Elections
     * Reading:
 [The fivethirtyeight.com Predictive Model of the 2008 Presidential Election](https://www.causeweb.org/cause/archive/stats/STATS_50.pdf)
-    * Discussion leader: 
+    * Discussion leader:
  
-* October 31: Short-term ecological forecasting [quantitative]
+* November 7:     Short-term ecological forecasting [quantitative]
     * Reading: [State-space modeling to support management of brucellosis in the Yellowstone bison population](https://doi.org/10.1890/14-1413.1) 
     * Discussion leader: Maria Paula
- 
-* *November 2: State-space model*
+    
+* *November 9: State-space model*
 
-* November 7: Data-driven models for forecasting [quantitative]
+* November 14:     Data-driven models for forecasting [quantitative]
     * Reading: [Equation-free mechanistic ecosystem forecasting using empirical dynamic modeling](https://doi.org/10.1073/pnas.1417063112) 
     * YouTube video: https://www.youtube.com/watch?v=fevurdpiRYg
     * Discussion leader: 
 
-* *November 9: Empirical Dynamic Modeling Tutorial*
+* *November 16: Empirical Dynamic Modeling Tutorial*
 
-* November 14: Long-term ecological forecasting
+* November 21: Long-term ecological forecasting
     * Reading: [Climatic Associations of British Species Distributions Show Good Transferability in Time but Low Predictive Accuracy for Range Change](http://dx.doi.org/10.1371/journal.pone.0040212) 
     * Discussion leader: Renata
-
-* *November 16: Species Distribution Modeling*
-
-* November 21: Scenario based foreasting
-
-    * Reading: [Scenario Planning: a Tool for Conservation in an Uncertain World](https://doi.org/10.1046/j.1523-1739.2003.01491.x)
-    * Discussion leader: Ethan
     
-* November 28: Operational forecasting
-    * Reading: PNAS ms
+* November 28:  Scenario based foreasting
+    * Reading: [Scenario Planning: a Tool for Conservation in an Uncertain World](https://doi.org/10.1046/j.1523-1739.2003.01491.x)
     * Discussion leader: Ethan
  
 * November 30: Example of Operational Forecasting
