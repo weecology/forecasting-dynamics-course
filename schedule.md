@@ -41,6 +41,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * September 19: Changes in phenology
     * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
     * Discussion leader: Morgan
+    * [Discussion questions]({{ site.baseurl }}/discussion/rangeshifts)
      
 * *September 21: Basics of Time Series – Time Series Decomposition*
       * Bring computers. Install the R package: forecast
