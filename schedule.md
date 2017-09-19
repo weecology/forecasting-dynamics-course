@@ -99,7 +99,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * November 14:     Data-driven models for forecasting [quantitative]
     * Reading: [Equation-free mechanistic ecosystem forecasting using empirical dynamic modeling](https://doi.org/10.1073/pnas.1417063112) 
     * YouTube video: https://www.youtube.com/watch?v=fevurdpiRYg
-    * Discussion leader: 
+    * Discussion leader: Katie
 
 * *November 16: Empirical Dynamic Modeling Tutorial*
 
