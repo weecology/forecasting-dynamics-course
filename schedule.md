@@ -83,7 +83,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * October 31:  How do other fields forecast - Weather
     * [The quiet revolution of numerical weather prediction](https://doi.org/10.1038/nature14956)
-    * Discussion leader:
+    * Discussion leader: Holden
     
 * November 2: How do other fields forecast - Elections
     * Reading:
