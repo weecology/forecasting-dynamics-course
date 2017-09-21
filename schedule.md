@@ -114,7 +114,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * November 30: Example of Operational Forecasting
     * Reading: [Forecasting Fire Season Severity in South America Using Sea Surface Temperature Anomalies](https://doi.org/10.1126/science.1209472) +
     * Reading: [2016 Forecast of Fire Season Severity](http://www.ess.uci.edu/~amazonfirerisk/ForecastWeb/SAMFSS2016.html)
-    * Discussion Leader: 
+    * Discussion Leader: Jade
 
 * December 5: Can we forecast in ecology (and what can we forecast)?
     * Reading: [Prediction, precaution, and policy under global change](https://doi.org/10.1126/science.1261824)
