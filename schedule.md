@@ -57,7 +57,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Reading: [Repeated regime shifts in a desert rodent community](https://doi.org/10.1101/163931)
     * Discussion leader: Morgan
  
-* October 5: Introduction to time-series modeling*
+* *October 5: Introduction to time-series modeling*
  
 * October 10: Community Dynamics – Species Composition and Richness 
     * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
