@@ -49,6 +49,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * September 26: Ecological Suprises
     * Reading: [Black-swan events in animal populations](https://doi.org/10.1073/pnas.1611525114)
     * Discussion leader: Eve
+    * [Discussion questions]({{ site.baseurl }}/discussion/blackswans)
      
 * *September 28: Basics of Time Series – Time Series Autocorrelation*
 
@@ -77,8 +78,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Reading: Dietz Chapter 2
     * Discussion leader: Ethan
     
-   
- 
+    
 * *October 26: Evaluating forecasts*
 
 * October 31:  How do other fields forecast - Weather
