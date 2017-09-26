@@ -56,6 +56,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * October 3: Regime shifts
     * Reading: [Repeated regime shifts in a desert rodent community](https://doi.org/10.1101/163931)
     * Discussion leader: Morgan
+    * [Discussion questions]({{ site.baseurl }}/discussion/regimes)
  
 * *October 5: Introduction to time-series modeling*
  
