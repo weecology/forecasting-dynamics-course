@@ -1,6 +1,6 @@
-+---
-+layout: nil
-+---
+---
+layout: nil
+---
 
 *   What are black swan events?  What kind of organisms experience more black swan events according to the results? Why might this be?
 *   What are the factors that contribute to black swan events?
