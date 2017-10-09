@@ -1,5 +1,5 @@
 ---
-format: nil
+layout: nil
 ---
 
 1. Before you had read the paper, what was your assumption about local species richness change? That it was generally declining? Generally increasing? Depended on the system? Why?
