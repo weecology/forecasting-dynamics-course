@@ -68,6 +68,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * October 12: Community Dynamics – Properties of Communities
     * Reading: [Species-level and community-level responses to disturbance: a cross-community analysis](https://doi.org/10.1890/13-2250.1)
     * Discussion leader: Ellen
+    * [Discussion questions]({{ site.baseurl }}/discussion/supp)
 
 * October 17: Introduction to forecasting
     * Reading: [Forecasting Principles & Process Chapter 1](https://www.otexts.org/fpp/1)
