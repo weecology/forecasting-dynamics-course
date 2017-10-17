@@ -22,15 +22,15 @@ layout: nil
 
 ## Determining what to forecast
 
-* Important to finding or collect right data
+* Important to find or collect right data
     * Do we have most of the data we need?
 	* Do we act like it?
 	* What are examples of additional data we should collect?
-	    * Large scale of small scale collection?
-		* Experiments or observations?
+	    * Large scale or small scale collection?
+            * Experiments or observations?
 * Cross-sectional vs. time-series
     * What is a good example of cross-sectional forecasting in ecology?
-	* What is a good example of time-series forecasting?
+    * What is a good example of time-series forecasting?
 * Why might we use a time-series only model for forecasting?
 
 ## Case studies
