@@ -112,7 +112,7 @@ library(tidyr)
 
 monsoon_data <- data %>%
   separate(date, c("month", "day", "year"), sep = '/') %>%
-  filter(month == 7 | month == 8 | month == 9) %>%
+  filter(month %in% c(7, 8, 9)) %>%
   group_by(year) %>%
   summarize(monsoon_rain = sum(rain), monsoon_ndvi = mean(NDVI), monsoon_rodents = sum(rodents))
 
