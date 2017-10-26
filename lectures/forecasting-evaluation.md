@@ -62,6 +62,7 @@ lines(NDVI_test)
 ```
 plot(arima_forecast$mean, NDVI_test)
 plot(as.vector(arima_forecast$mean), as.vector(NDVI_test))
+abline(0, 1)
 ```
 
 ### Decay
@@ -88,6 +89,7 @@ seasonal_arima_forecast = forecast(seasonal_arima_model, h = 36)
 plot(seasonal_arima_forecast)
 lines(NDVI_test)
 plot(as.vector(seasonal_arima_forecast$mean), as.vector(NDVI_test))
+abline(0, 1)
 seasonal_accur <- accuracy(seasonal_arima_forecast, NDVI_test)
 ```
 
