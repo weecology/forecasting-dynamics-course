@@ -65,12 +65,6 @@ plot(as.vector(arima_forecast$mean), as.vector(NDVI_test))
 abline(0, 1)
 ```
 
-### Decay
-
-```
-plot()
-```
-
 ## Quantify
 
 ```
@@ -105,7 +99,7 @@ coverage <- sum(in_interval) / length(NDVI_test)
 ```
 data.frame(arima = arima_accur[2,], seasonal = seasonal_accur[2,])
 in_interval_season <- seasonal_arima_forecast$lower[,1] < NDVI_test & seasonal_arima_forecast$upper[,1] > NDVI_test
-coverage_season <- sum(in_interval) / length(NDVI_test)
+coverage_season <- sum(in_interval_season) / length(NDVI_test)
 coverage
 coverage_season
 ```
@@ -113,6 +107,6 @@ coverage_season
 ## Forecast horizon
 
 ```
-plot(sqrt((arima_forecast$mean -  NDVI_test)^2))
+plot(sqrt((arima_forecast$mean - NDVI_test)^2))
 lines(sqrt((seasonal_arima_forecast$mean -  NDVI_test)^2), col = 'blue')
 ```
