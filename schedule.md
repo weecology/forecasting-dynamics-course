@@ -93,7 +93,8 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Reading:
 [The fivethirtyeight.com Predictive Model of the 2008 Presidential Election](https://www.causeweb.org/cause/archive/stats/STATS_50.pdf)
     * Discussion leader: Holden
- 
+    * [Discussion questions]({{ site.baseurl }}/discussion/elections)
+     
 * November 7:     Short-term ecological forecasting [quantitative]
     * Reading: [State-space modeling to support management of brucellosis in the Yellowstone bison population](https://doi.org/10.1890/14-1413.1) 
     * Discussion leader: Maria Paula
