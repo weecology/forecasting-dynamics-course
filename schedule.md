@@ -86,13 +86,15 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * October 31:  How do other fields forecast - Weather
     * [The quiet revolution of numerical weather prediction](https://doi.org/10.1038/nature14956)
-    * Discussion leader: Holden
+    * Discussion leader: Emily
+    * [Discussion questions]({{ site.baseurl }}/discussion/weather)
     
 * November 2: How do other fields forecast - Elections
     * Reading:
 [The fivethirtyeight.com Predictive Model of the 2008 Presidential Election](https://www.causeweb.org/cause/archive/stats/STATS_50.pdf)
-    * Discussion leader: Emily
- 
+    * Discussion leader: Holden
+    * [Discussion questions]({{ site.baseurl }}/discussion/elections)
+     
 * November 7:     Short-term ecological forecasting [quantitative]
     * Reading: [State-space modeling to support management of brucellosis in the Yellowstone bison population](https://doi.org/10.1890/14-1413.1) 
     * Discussion leader: Maria Paula
