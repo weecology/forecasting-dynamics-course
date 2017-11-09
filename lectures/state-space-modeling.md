@@ -43,7 +43,7 @@ x_t-1 -> x_t -> x_t+1   Process model
 ```
 
 
-### Data model
+### Process model
 
 * What is actually happening in the system
 * First order autoregressive component
