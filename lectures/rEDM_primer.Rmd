@@ -1,0 +1,139 @@
+---
+title: "rEDM Primer"
+author: "Hao Ye"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    number_sections: true
+---
+
+# Abstract
+
+This document is designed to be a quick intro for "empiricial dynamic modeling" (EDM) and the **rEDM** package. For more detailed information, please see the `rEDM-tutorial` vignette include in the package [[link]](https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM-tutorial.html).
+
+# Theory
+
+Suppose that we have a system with $d$ state variables: $x_1, x_2, \dots, x_d$. We can represent the state at a specific time, $t$, as a vector with these $d$ components: $\bar{x}(t) = \langle x_1(t), x_2(t), \dots, x_d(t) \rangle$.
+
+We generally assume that the system is deterministic, such that the current state fully determines future states:
+$$\bar{x}(t+1) = F \left(\bar{x}(t)\right)$$
+though we may not know what this function $F$ actually is.
+
+## Example
+
+In model systems, we usually know what $F$ is, since we have differential or difference equations that describe the system behavior. For example, the coupled logistic map equations are:
+$$\begin{align*}
+x_1(t+1) &= r_1 x_1(t) \left[1 - x_1(t) - \alpha_{1,2} x_2(t)\right]\\
+x_2(t+1) &= r_2 x_2(t) \left[1 - x_2(t) - \alpha_{2,1} x_1(t)\right]
+\end{align*}$$
+with parameters $r_1, r_2, \alpha_{1,2}, \alpha_{2,1}$.
+
+## Time Delay Embedding (Delay Coordinate Embedding)
+
+We would naturally expect that to predict the future of any component of the system, e.g. $x_i$, we would need to know all the other $x_j$ values. Takens' Theorem actually posits that this is not strictly necessary, and that under certain conditions, a single time series is sufficient.
+
+In other words, instead of relying on:
+$$x_i(t+1) = F_i\left(x_1(t), x_2(t), \dots, x_d(t)\right)$$
+
+the system dynamics can be represented as a function of a single variable and its lags:
+$$x_i(t+1) = G_i\left(x_i(t), x_i(t-1), \dots, x_i(t-(E-1))\right)$$
+
+Note that we use $E$ coordinates instead of $d$ and that we do not make any claims about how the functions $F_i$ and $G_i$ are related.
+
+## Usage
+
+Since we generally don't know the form of $G_i$, we stick to inferring it from the data. The **rEDM** package provides several methods to do so, but here we just stick to simplex projection.
+
+Simplex projection uses a weighted nearest-neighbors approximation to estimate $G_i$. That's kind of a fancy way of saying the following:
+
+1. Suppose we have the value of $x$ and its lags at time $s$. Then we want a prediction of $x(s+1) = G\left(x(s), x(s-1), \dots, x(s - (E-1))\right)$.
+
+2. We look for $j = 1..k$ nearest neighbors in the observed time series of $x$ such that $\langle x(s), x(s-1), \dots, x(s - (E-1))\rangle \approx \langle x(n_j), x(n_j-1), \dots, x(n_j - (E-1))\rangle$.
+
+3. We then suppose that $x(s+1) \approx x(n_j+1)$.
+
+Mathematically, this occurs by using some distance function to judge how similar $\langle x(s), x(s-1), \dots, x(s - (E-1))\rangle$ is to $\langle x(n_j), x(n_j-1), \dots, x(n_j - (E-1))\rangle$ and estimating $x(s+1)$ as a weighted average of the $x(n_j+1)$ values with weighting determined by the distances.
+
+# Applications
+
+These principles of EDM can be used for several different applications. These include:
+
+* univariate forecasting (predicting future behavior using lags of a single time series)
+* multivariate forecasting (predicting future behavior using lags of multiple time series)
+* characterizing various properties of time series (e.g. predictability and "nonlinearity")
+* identifying causal relationships between time series
+
+Here, we'll just look at univariate forecasting, though there are examples for the others among the package documentation. (see the vignettes on [CRAN](https://cran.r-project.org/web/packages/rEDM/index.html))
+
+# Univariate Forecasting
+
+## Data
+
+We'll start by looking at sunspot data. Note that there is also monthly data, but it seems quite a bit noisier:
+```{r}
+dat <- data.frame(yr = as.numeric(time(sunspot.year)), 
+                  sunspot_count = as.numeric(sunspot.year))
+
+plot(dat$yr, dat$sunspot_count, type = "l")
+```
+
+## Determining E
+
+From the above sections, you may recall that one of the parameters is the embedding dimension, `E`. Since we ultimately want to test forecast skill, we use only the first 2/3 of the data to fit `E`. There are several other parameters that we can set, but the defaults work fine for our case:
+
+```{r}
+library(rEDM)                    # load the package
+
+n <- NROW(dat)
+lib <- c(1, floor(2/3 * n))      # indices for the first 2/3 of the time series
+pred <- c(floor(2/3 * n) + 1, n) # indices for the final 1/3 of the time series
+
+simplex(dat,                     # input data (for data.frames, uses 2nd column)
+        lib = lib, pred = lib,   # which portions of the data to train and predict
+        E = 1:10)                # embedding dimensions to try
+```
+
+The output is a data.frame describing how well the model "predicted" on the given data. The columns are various statistical outputs. We'll focus just on the measures of model performance:
+
+* rho (correlation between observed and predicted values)
+* mae (mean absolute error)
+* rmse (root mean squared error)
+
+It looks like `E = 3` or `4` is optimal. Since we generally want a simpler model, if possible, let's go with `E = 3` to forecast the remaining 1/3 of the data.
+
+## Forecasts
+
+We can use similar code to produce forecasts for the last 1/3 of the time series. Since we want the outputs in addition to the performance statistics, we add an additional argument to the function call:
+
+```{r}
+output <- simplex(dat,
+        lib = lib, pred = pred,  # predict on last 1/3
+        E = 3, 
+        stats_only = FALSE)      # return predictions, too
+```
+
+Here the output is again a data.frame with a list column for the predictions:
+
+```{r}
+predictions <- output$model_output[[1]]
+str(predictions)
+```
+
+Let's plot the predictions against the original data:
+```{r}
+plot(dat$yr, dat$sunspot_count, type = "l")
+lines(predictions$time, predictions$pred, col = "blue", lty = 2)
+```
+
+Since we also have an estimate of the prediction uncertainty, let's include that as well:
+```{r}
+plot(dat$yr, dat$sunspot_count, type = "l")
+lines(predictions$time, predictions$pred, col = "blue", lty = 2)
+polygon(c(predictions$time, rev(predictions$time)), 
+        c(predictions$pred - sqrt(predictions$pred_var), 
+        rev(predictions$pred + sqrt(predictions$pred_var))), 
+        col = rgb(0, 0, 1, 0.5), 
+        border = NA)
+```
+
