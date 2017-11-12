@@ -105,6 +105,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Reading: [Equation-free mechanistic ecosystem forecasting using empirical dynamic modeling](https://doi.org/10.1073/pnas.1417063112) 
     * YouTube video: https://www.youtube.com/watch?v=fevurdpiRYg
     * Discussion leader: Katie
+	* [Discussion questions]({{ site.baseurl }}/discussion/edm)
 
 * *November 16: Empirical Dynamic Modeling Tutorial*
 
