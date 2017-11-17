@@ -108,6 +108,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 	* [Discussion questions]({{ site.baseurl }}/discussion/edm)
 
 * *November 16: Empirical Dynamic Modeling Tutorial*
+    * [Code]({{ site.baseurl }}/lectures/rEDM_primer)
 
 * November 21: Long-term ecological forecasting
     * Reading: [Climatic Associations of British Species Distributions Show Good Transferability in Time but Low Predictive Accuracy for Range Change](http://dx.doi.org/10.1371/journal.pone.0040212) 
