@@ -112,6 +112,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * November 21: Long-term ecological forecasting
     * Reading: [Climatic Associations of British Species Distributions Show Good Transferability in Time but Low Predictive Accuracy for Range Change](http://dx.doi.org/10.1371/journal.pone.0040212) 
     * Discussion leader: Renata
+	* [Discussion questions]({{ site.baseurl }}/discussion/SDMs)
     
 * November 28:  Scenario based foreasting
     * Reading: [Scenario Planning: a Tool for Conservation in an Uncertain World](https://doi.org/10.1046/j.1523-1739.2003.01491.x)
