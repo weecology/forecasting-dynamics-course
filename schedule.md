@@ -118,6 +118,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * November 28:  Scenario based foreasting
     * Reading: [Scenario Planning: a Tool for Conservation in an Uncertain World](https://doi.org/10.1046/j.1523-1739.2003.01491.x)
     * Discussion leader: Ethan
+	* [Discussion questions]({{ site.baseurl }}/discussion/scenarios)
  
 * November 30: Example of Operational Forecasting
     * Reading: [Forecasting Fire Season Severity in South America Using Sea Surface Temperature Anomalies](https://doi.org/10.1126/science.1209472) +
