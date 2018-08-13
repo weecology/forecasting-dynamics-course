@@ -83,8 +83,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *October 25: State-space model* 
     
 * October 30: Forecasting using Species Distribution Models
-    * Reading:[A User's Giode to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
-    * Reading: [Which election forecast should you trust](http://www.slate.com/articles/news_and_politics/politics/2016/08/fivethirtyeight_vs_the_upshot_who_should_you_trust_to_forecast_the_2016.html)
+    * Reading: 
     * Discussion Leader:
     * Discussion Questions
 
@@ -96,9 +95,9 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * [Discussion questions]({{ site.baseurl }}/discussion/weather)
      
 * November 8: How do other fields forecast - Elections
-    * Reading:
-[The fivethirtyeight.com Predictive Model of the 2008 Presidential Election](https://www.causeweb.org/cause/archive/stats/STATS_50.pdf)
-    * Discussion leader: Holden
+    * Reading:[A User's Giode to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
+    * Reading: [Which election forecast should you trust](http://www.slate.com/articles/news_and_politics/politics/2016/08/fivethirtyeight_vs_the_upshot_who_should_you_trust_to_forecast_the_2016.html)
+    * Discussion leader:
     * [Discussion questions]({{ site.baseurl }}/discussion/elections) 
     
 * November 13: Data-driven models for forecasting [quantitative]
