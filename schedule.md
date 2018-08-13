@@ -76,18 +76,18 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * *October 18: Evaluating forecasts*
 
-* October 23:  Forecasting using State-space model [quantitative]
-    * Reading:
-    * Discussion leader: 
-    
-* *October 25: State-space model* 
-    
-* October 30: Forecasting using Species Distribution Models
+* October 23:  Forecasting using Species Distribution Models
     * Reading: 
     * Discussion Leader:
     * Discussion Questions
+    
+* *October 25: Species Distribution Models*  
+    
+* October 30: Forecasting using State-space model [quantitative]
+    * Reading: [Forecasting climate change impacts on plant populations over large spatial extents](https://doi.org/10.1002/ecs2.1525)
+    * Discussion leader: 
 
-* *November 1:  Species Distribution Models*
+* *November 1:  State-space model*
     
 * November 6: How do other fields forecast - Weather
     * [The quiet revolution of numerical weather prediction](https://doi.org/10.1038/nature14956)
