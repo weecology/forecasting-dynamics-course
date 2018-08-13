@@ -77,7 +77,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *October 18: Evaluating forecasts*
 
 * October 23:  Forecasting using Species Distribution Models
-    * Reading: [Predicting species distribution: offering more than simple habitat models](https://doi.org/10.1111/j.1461-0248.2005.00792.x)
+    * Reading: [Species Distribution Models:Ecological Explanation and Prediction Across Space and Time](http://eurobasin.dtuaqua.dk/eurobasin/documents/Training%20ISM/Elith_and_Leathwick_2009.pdf)
     * Discussion Leader:
     * Discussion Questions
     
