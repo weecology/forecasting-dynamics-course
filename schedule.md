@@ -77,7 +77,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *October 18: Evaluating forecasts*
 
 * October 23:  Forecasting using Species Distribution Models
-    * Reading: 
+    * Reading: [Predicting species distribution: offering more than simple habitat models](https://doi.org/10.1111/j.1461-0248.2005.00792.x)
     * Discussion Leader:
     * Discussion Questions
     
@@ -91,11 +91,11 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     
 * November 6: How do other fields forecast - Weather
     * [The quiet revolution of numerical weather prediction](https://doi.org/10.1038/nature14956)
-    * Discussion leader: Emily
+    * Discussion leader: 
     * [Discussion questions]({{ site.baseurl }}/discussion/weather)
      
 * November 8: How do other fields forecast - Elections
-    * Reading:[A User's Giode to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
+    * Reading:[A User's Guide to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
     * Reading: [Which election forecast should you trust](http://www.slate.com/articles/news_and_politics/politics/2016/08/fivethirtyeight_vs_the_upshot_who_should_you_trust_to_forecast_the_2016.html)
     * Discussion leader:
     * [Discussion questions]({{ site.baseurl }}/discussion/elections) 
