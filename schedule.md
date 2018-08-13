@@ -112,8 +112,8 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *November 20: GAMs*
 
 * November 27: Scenario based foreasting
-    * Reading: [Scenario Planning: a Tool for Conservation in an Uncertain World](https://doi.org/10.1046/j.1523-1739.2003.01491.x)
-    * Discussion leader: Ethan
+    * Reading: [Why global scenarios need ecology](https://doi.org/10.1890/1540-9295(2003)001[0322:WGSNE]2.0.CO;2)
+    * Discussion leader: 
 	* [Discussion questions]({{ site.baseurl }}/discussion/scenarios)
     
 * November 29:  Near-term Iterative Forecasting
