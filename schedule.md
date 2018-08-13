@@ -89,8 +89,12 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * *November 1:  State-space model*
     
-* November 6: How do other fields forecast - Weather
-    * [The quiet revolution of numerical weather prediction](https://doi.org/10.1038/nature14956)
+* November 6: How do other fields forecast - Hurricane Forecasting
+    * [How Hurricane Forecast Models Work](http://www.hurricanescience.org/science/forecast/models/modelswork/)
+    * [Numerical Weather Predictions](https://www.weather.gov/media/ajk/brochures/NumericalWeatherPrediction.pdf)
+    * [Types of Hurricane Forecast Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/)
+    * [Dynamical Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/dynamicalmodels/)
+    * [Ensemble or Consensus Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/ensemble/)
     * Discussion leader: 
     * [Discussion questions]({{ site.baseurl }}/discussion/weather)
      
