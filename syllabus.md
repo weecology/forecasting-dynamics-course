@@ -9,7 +9,7 @@ title: Syllabus
   |**Office Location**    |Building 150, Room 2     | Building 150, Room 1
   |**Phone**              |352-294-2082             | 352-294-2084
   |**Email (preferred)**  |<skmorgane@ufl.edu>      | <ethanwhite@ufl.edu>
-  |**Office Hours**       |Tuesday 3-4              |
+  |**Office Hours**       |                         |
                                                  
 <br>
 												 
