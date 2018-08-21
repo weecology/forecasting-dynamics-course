@@ -11,25 +11,25 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Video: [NEON: Forecasting](https://www.youtube.com/watch?v=Lgi_e7N-C8E)
     * Reading:[Ecological Forecasts: An Emerging Imperative](https://doi.org/10.1126/science.293.5530.657)
     * Discussion leader: Ethan
-        * [Discussion questions]({{ site.baseurl }}/discussion/clark_etal_2001)
+        * [Discussion questions]
 
 * August 30: Paleo dynamics - Pleistocene/Holocene transition
     * Reading: Just the Introduction of [Ecological Change, Range Fluctuations and Population Dynamics during the Pleistocene](https://doi.org/10.1016/j.cub.2009.06.030)
     * Reading: Read all of [Novel climates, no-analog communities, and ecological surprises](https://doi.org/10.1890/070037)
     * Discussion leader: Morgan
-        * [Discussion questions]({{ site.baseurl }}/discussion/paleodynamics)
+        * [Discussion questions]
  
 * September 4: Modern Range Shifts
     * Reading: [Poleward shifts in geographical ranges of butterfly species associated with regional warming](https://doi.org/10.1038/21181)
     * Discussion leader: Morgan
-        * [Discussion questions]({{ site.baseurl }}/discussion/rangeshifts)
+        * [Discussion questions]
 
 * *September 6: Time series data*
 
 * September 11:  Community Dynamics – Species Composition and Richness 
     * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
     * Discussion leader: Morgan
-    * [Discussion questions]({{ site.baseurl }}/discussion/dornelas)
+    * [Discussion questions]
  
 * *September 13:  Working with time series data in R*
     * Readings: [NEON Working with Time Series Data Tutorial](http://neondataskills.org/tutorial-series/tabular-time-series/)
@@ -43,7 +43,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * September 18: Changes in phenology
     * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
     * Discussion leader: Morgan
-    * [Discussion questions]({{ site.baseurl }}/discussion/phenology)
+    * [Discussion questions]
 
 * *September 20: Basics of Time Series – Time Series Decomposition*
       * Bring computers. Install the R package: forecast
@@ -58,21 +58,21 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * October 2: Regime shifts
     * Reading: [Repeated regime shifts in a desert rodent community](https://doi.org/10.1002/ecy.2373)
     * Discussion leader: Morgan
-    * [Discussion questions]({{ site.baseurl }}/discussion/regimeshifts)
+    * [Discussion questions]
 
 * *October 4: Introduction to time-series modeling*
  
 * October 9: Introduction to forecasting
     * Reading: [Forecasting Principles & Process Chapter 1](https://www.otexts.org/fpp/1)
     * Discussion leader: Ethan
-    * [Discussion questions]({{ site.baseurl }}/discussion/fpp_1_questions)
+    * [Discussion questions]
  
 * *October 11: Introduction to forecasting in R*
        
 * October 16: Importance of uncertainty
     * Reading: Dietze Chapter 2
     * Discussion leader: Ethan
-    * [Discussion questions]({{ site.baseurl }}/discussion/dietz-ch2-questions)
+    * [Discussion questions]
 
 * *October 18: Evaluating forecasts*
 
@@ -96,13 +96,13 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * [Dynamical Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/dynamicalmodels/)
     * [Ensemble or Consensus Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/ensemble/)
     * Discussion leader: 
-    * [Discussion questions]({{ site.baseurl }}/discussion/weather)
+    * [Discussion questions]
      
 * November 8: How do other fields forecast - Elections
     * Reading:[A User's Guide to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
     * Reading: [Which election forecast should you trust](http://www.slate.com/articles/news_and_politics/politics/2016/08/fivethirtyeight_vs_the_upshot_who_should_you_trust_to_forecast_the_2016.html)
     * Discussion leader:
-    * [Discussion questions]({{ site.baseurl }}/discussion/elections) 
+    * [Discussion questions]
     
 * November 13: Data-driven models for forecasting [quantitative]
     * Reading: [Equation-free mechanistic ecosystem forecasting using empirical dynamic modeling](https://doi.org/10.1073/pnas.1417063112) 
@@ -118,7 +118,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * November 27: Scenario based foreasting
     * Reading: [Why global scenarios need ecology](https://doi.org/10.1890/1540-9295(2003)001[0322:WGSNE]2.0.CO;2)
     * Discussion leader: 
-	* [Discussion questions]({{ site.baseurl }}/discussion/scenarios)
+	* [Discussion questions]
     
 * November 29:  Near-term Iterative Forecasting
     * Reading: [Iterative near-term ecological forecasting: Needs, opportunities, and challenges](https://doi.org/10.1073/pnas.1710231115 )
