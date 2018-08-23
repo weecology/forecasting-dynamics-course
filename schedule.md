@@ -42,7 +42,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
  
 * September 18: Changes in phenology
     * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
-    * Discussion leader: 
+    * Discussion leader: Maria
     * [Discussion questions]
 
 * *September 20: Basics of Time Series – Time Series Decomposition*
@@ -71,14 +71,14 @@ Activity days when laptops are required are noted in italics. Discussion leaders
        
 * October 16: Importance of uncertainty
     * Reading: Dietze Chapter 2
-    * Discussion leader: 
+    * Discussion leader: Virnaliz
     * [Discussion questions]
 
 * *October 18: Evaluating forecasts*
 
 * October 23:  Forecasting using Species Distribution Models
     * Reading: [Species Distribution Models:Ecological Explanation and Prediction Across Space and Time](http://eurobasin.dtuaqua.dk/eurobasin/documents/Training%20ISM/Elith_and_Leathwick_2009.pdf)
-    * Discussion Leader:
+    * Discussion Leader: Brittany
     * Discussion Questions
     
 * *October 25: Species Distribution Models*  
