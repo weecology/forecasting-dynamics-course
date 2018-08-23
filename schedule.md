@@ -21,14 +21,14 @@ Activity days when laptops are required are noted in italics. Discussion leaders
  
 * September 4: Modern Range Shifts
     * Reading: [Poleward shifts in geographical ranges of butterfly species associated with regional warming](https://doi.org/10.1038/21181)
-    * Discussion leader: Morgan
+    * Discussion leader: 
         * [Discussion questions]
 
 * *September 6: Time series data*
 
 * September 11:  Community Dynamics – Species Composition and Richness 
     * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
-    * Discussion leader: Morgan
+    * Discussion leader: 
     * [Discussion questions]
  
 * *September 13:  Working with time series data in R*
@@ -42,7 +42,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
  
 * September 18: Changes in phenology
     * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
-    * Discussion leader: Morgan
+    * Discussion leader: 
     * [Discussion questions]
 
 * *September 20: Basics of Time Series – Time Series Decomposition*
@@ -71,7 +71,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
        
 * October 16: Importance of uncertainty
     * Reading: Dietze Chapter 2
-    * Discussion leader: Ethan
+    * Discussion leader: 
     * [Discussion questions]
 
 * *October 18: Evaluating forecasts*
