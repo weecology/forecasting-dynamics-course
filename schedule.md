@@ -28,7 +28,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * September 11:  Community Dynamics – Species Composition and Richness 
     * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
-    * Discussion leader: 
+    * Discussion leader: Alex
     * [Discussion questions]
  
 * *September 13:  Working with time series data in R*
