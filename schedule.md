@@ -85,7 +85,8 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     
 * October 30: Forecasting using State-space model [quantitative]
     * Reading: [Forecasting climate change impacts on plant populations over large spatial extents](https://doi.org/10.1002/ecs2.1525)
-    * Discussion leader: 
+    * Discussion leader: Tal
+    * Discussion Questions
 
 * *November 1:  State-space model*
     
@@ -107,7 +108,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * November 13: Data-driven models for forecasting [quantitative]
     * Reading: [Equation-free mechanistic ecosystem forecasting using empirical dynamic modeling](https://doi.org/10.1073/pnas.1417063112) 
     * YouTube video: https://www.youtube.com/watch?v=fevurdpiRYg
-    * Discussion leader: 
+    * Discussion leader: David
     * Discussion questions
 
 * *November 15:  Empirical Dynamic Modeling Tutorial*
