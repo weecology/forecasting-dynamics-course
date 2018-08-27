@@ -11,13 +11,13 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * Video: [NEON: Forecasting](https://www.youtube.com/watch?v=Lgi_e7N-C8E)
     * Reading:[Ecological Forecasts: An Emerging Imperative](https://doi.org/10.1126/science.293.5530.657)
     * Discussion leader: Ethan
-        * [Discussion questions]
+        * [Discussion questions]({{ site.baseurl }}/discussion/clark_etal_2001)
 
 * August 30: Paleo dynamics - Pleistocene/Holocene transition
     * Reading: Just the Introduction of [Ecological Change, Range Fluctuations and Population Dynamics during the Pleistocene](https://doi.org/10.1016/j.cub.2009.06.030)
     * Reading: Read all of [Novel climates, no-analog communities, and ecological surprises](https://doi.org/10.1890/070037)
     * Discussion leader: Morgan
-        * [Discussion questions]
+        * [Discussion questions]({{ site.baseurl }}/discussion/paleodynamics)
  
 * September 4: Modern Range Shifts
     * Reading: [Poleward shifts in geographical ranges of butterfly species associated with regional warming](https://doi.org/10.1038/21181)
