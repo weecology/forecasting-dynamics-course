@@ -118,7 +118,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * November 27: Scenario based foreasting
     * Reading: [Why global scenarios need ecology](https://doi.org/10.1890/1540-9295(2003)001[0322:WGSNE]2.0.CO;2)
-    * Discussion leader: 
+    * Discussion leader: Diego
 	* [Discussion questions]
     
 * November 29:  Near-term Iterative Forecasting
