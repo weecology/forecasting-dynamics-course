@@ -123,7 +123,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     
 * November 29:  Near-term Iterative Forecasting
     * Reading: [Iterative near-term ecological forecasting: Needs, opportunities, and challenges](https://doi.org/10.1073/pnas.1710231115 )
-    * Discussion Leader: 
+    * Discussion Leader: Ryan
     * Discussion Questions
  
 * December 4: Can we forecast in ecology (and what can we forecast)?
