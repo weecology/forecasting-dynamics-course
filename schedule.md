@@ -29,7 +29,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * September 11:  Community Dynamics – Species Composition and Richness 
     * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
     * Discussion leader: Alex
-    * [Discussion questions]
+    * [Discussion questions]({{ site.baseurl }}/discussion/dornelas)
  
 * *September 13:  Working with time series data in R*
     * Readings: [NEON Working with Time Series Data Tutorial](http://neondataskills.org/tutorial-series/tabular-time-series/)
