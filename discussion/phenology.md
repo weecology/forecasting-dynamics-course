@@ -2,14 +2,29 @@
 layout: nil
 ---
 
-1. What is phenology?
-2. What are some of the ways that climate and phenology are linked?
-3. This paper is very focused on land plants. Can you think of some examples of phenology for non-plants?
-4. How big have the shifts in phenology been thus far?
-    * What kind of data do you need to detect and forecast that magnitude of change?
-    * Think back to our discussion on data types for forecasting, what type sof data give us that scale of resolution? What challenge do they identify later in the paper that inhibits using that type of fata collection for studying phenology?
-    * Do you feel that its important or possible to forecast shifts that precisely?
-5. Phenology has been studied for a very long time, but where are most of the long-term records from? What biases does this insert into our understanding of phenology?
-6. The paper dedicated a section to discuss which family of models (theoertical, statistical, process oriented) is suitable for forecasting phenology. Each family has pros and cons. Which approach do you feel may be best? To answer which questions? Which of the approaches would you bet on for future development?
-7. How often have you read the word 'uncertainty' in this paper?
+*Introduction*
+* What is the trend reported by many recent studies correlating early spring phenology and temperature?
+* What are the two new possibilities enabled by recent advances in species-specific phenological models?
+* Phenology and climate are intimately linked
+* In what way can global climate change influence phenology?
+* What is a phenoclimatic measure and why is it relevant?
+
+*Species-level phenology: observational networks*
+* Why are long-term historical records important?
+* What are the limitations of traditional methods that try to detect temporal changes in phenology?
+
+*Ecosystem and global-scale phenology: remote sensing*
+* What makes the use of satellites so important in the study of phenological responses to climate change?
+* What are the two major challenges a researcher can encounter when working with satellite data? Are there ways to overcome these limitations?
+* Implications for the global carbon cycle: atmospheric monitoring networks
+* What is one of the main purposes of global change research?
+* Disentangling the influences of multiple global changes: experiments
+* What is the importance of controlling different environmental characteristics when studying global change?
+* How can the increase in atmospheric carbon influence plants? Is there a singular pattern identified in the responses from plants to atmospheric carbon increase?
+* From observation to prediction: modeling phenology
+* What could be accomplished by applying accurate phenology predictions?
+
+*Future directions: challenges and opportunities*
+How are researchers dealing with integration of different scales (species-specific and regional) to predict global patterns of change?
+
 
