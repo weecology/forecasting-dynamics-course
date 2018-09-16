@@ -25,6 +25,6 @@ layout: nil
 * What could be accomplished by applying accurate phenology predictions?
 
 *Future directions: challenges and opportunities*
-How are researchers dealing with integration of different scales (species-specific and regional) to predict global patterns of change?
+* How are researchers dealing with integration of different scales (species-specific and regional) to predict global patterns of change?
 
 
