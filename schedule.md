@@ -103,7 +103,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * November 8: How do other fields forecast - Elections
     * Reading:[A User's Guide to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
     * Reading: [Which election forecast should you trust](http://www.slate.com/articles/news_and_politics/politics/2016/08/fivethirtyeight_vs_the_upshot_who_should_you_trust_to_forecast_the_2016.html)
-    * Discussion leader:
+    * Discussion leader: Travis
     * [Discussion questions]
     
 * November 13: Data-driven models for forecasting [quantitative]
