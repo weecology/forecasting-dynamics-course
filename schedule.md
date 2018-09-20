@@ -47,7 +47,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * *September 20: Basics of Time Series – Time Series Decomposition*
       * Bring computers. Install the R package: forecast
-      * Data file: [portal_timeseries.csv](({{ site.baseurl }}/data/portal_timeseries.csv)
+      * Data file: [portal_timeseries.csv]({{ site.baseurl }}/data/portal_timeseries.csv)
      
 * September 25: Ecological Suprises
     * Reading: [Black-swan events in animal populations](https://doi.org/10.1073/pnas.1611525114)
