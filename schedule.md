@@ -71,7 +71,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *October 11: Introduction to forecasting in R*
        
 * October 16: Importance of uncertainty
-    * Reading: Dietze Chapter 2
+    * Reading: [Dietze Chapter 2](https://ebookcentral.proquest.com/lib/UFL/detail.action?docID=4866481#goto_toc)
     * Discussion leader: Virnaliz
     * [Discussion questions]
 
