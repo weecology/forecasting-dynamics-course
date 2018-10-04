@@ -6,6 +6,7 @@ data = read.csv("portal_timeseries.csv", stringsAsFactors = FALSE)
 head(data)
 NDVI_ts = ts(data$NDVI, start = c(1992, 3), end = c(2014, 11), frequency = 12)
 rain_ts = ts(data$rain, start = c(1992, 3), end = c(2014, 11), frequency = 12)
+
 # Plot the data
 
 plot(NDVI_ts)
