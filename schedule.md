@@ -66,7 +66,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * October 9: Introduction to forecasting
     * Reading: [Forecasting Principles & Process Chapter 1](https://www.otexts.org/fpp/1)
     * Discussion leader: Ethan
-    * [Discussion questions]
+    * [Discussion questions]({{ site.baseurl }}/discussion/fpp_1_questions)
  
 * *October 11: Introduction to forecasting in R*
        
