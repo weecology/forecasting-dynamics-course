@@ -2,7 +2,7 @@
 layout: nil
 ---
 
-###TRADITIONAL MODELERS TOOLBOX
+### TRADITIONAL MODELERS TOOLBOX
 
 **Deterministic:** Initial state and inputs (parameter values) completely determine the behavior of our model, process, etc. Yields a single solution appropriate to input.
 
@@ -12,7 +12,7 @@ layout: nil
 * Imagine we are interested in forecasting if we would need to protect the species Forecastus floridensi. Would we be more interested in knowing at what stage its population reaches equilibrium or its current population trajectory?
 * Why does a probabilistic approach help us more in forecasting than a deterministic approach? 
 
-###SOURCES OF UNCERTAINTY
+### SOURCES OF UNCERTAINTY
 
 **Uncertainty:** Unknowns of a process, our imperfect understanding of it. Decreases with sample size.
 
@@ -20,7 +20,7 @@ layout: nil
 
 * Give a detailed example of both in your system of study.
 
-####OBSERVATION ERROR
+#### OBSERVATION ERROR
 
 **Observation error:**  Uncertainty with which we observe a process.
 
@@ -28,7 +28,7 @@ layout: nil
 * Can observation error be biased?
 * Why would we have zero uncertainty if observation error was the only source of uncertainty?
 
-####PARAMETER UNCERTAINTY
+#### PARAMETER UNCERTAINTY
 
 **Parameter:** Slope or change in the mean of *y* for a ONE unit increase in *x*.
 
@@ -38,7 +38,7 @@ layout: nil
 * Why would  intercept uncertainty yield a band shape CI and a slope uncertainty yield a triangle shaped CI?
 
 
-####INITIAL CONDITIONS
+#### INITIAL CONDITIONS
 
 **State variables:** Properties we can attribute. Are used to describe  a mathematical state of a dynamic system. They give a snapshot of the system properties at any given time. 
 
@@ -48,24 +48,24 @@ layout: nil
 * What is uncertainty  in initial conditions  and why is it relevant for forecasting?
 * Can uncertainty in initial conditions be reduced easily with an increase in sample size?
 
-####PROCESS ERROR
+#### PROCESS ERROR
 
 **Process error**: Encompasses all sources of true variability uncounted by our model. It affects underlying model dynamics.
 
 * How can you think of process error with respect to residual error?  
  
-###MODEL CHOICE
+### MODEL CHOICE
 
 * What is model selection?
 * Can the model with the lowest AIC score still be a poor model?
 
-###THINKING PROBABILISTICLY
+### THINKING PROBABILISTICLY
 
 * Label each of the white boxes in figure 2.7 with the name of the uncertainty source.
 * Are these model parameters constants?
 * Why can we not tell a priori which of these parameters and uncertainties has the largest impact on forecast uncertainty?
 
-###PREDICTABILITY
+### PREDICTABILITY
 
 **Poor imagination syndrome (PIS):** Not thinking of low probability events that can have substantial impacts on a system and affect our forecasting. 
 
@@ -73,7 +73,7 @@ layout: nil
 
 * What impact might PIS have in forecasting results?
 
-####BARRIERS IN FORECASTING
+#### BARRIERS IN FORECASTING
 
 * Why are chaotic systems (systems very sensitive to changes in initial conditions) limited to predictability through long time periods. 
 
@@ -81,13 +81,13 @@ layout: nil
 
 * Why can poor understanding of an ecological system lead to worse forecasting models in this big data era?
 
-####WEATHER FORECASTING
+#### WEATHER FORECASTING
 
 * How could forecasting, even with uncertainty, aid in our understanding of causal relationships?
 
 * Why should ecologist not wait to forecast until forecasting is more accurate or our understanding of the system is better?
 
-####ECOFORECASTING PROBLEM
+#### ECOFORECASTING PROBLEM
 
 * What can contributed to higher predictability?
 * If we know that $X_1$ is the best predictor of Y, why might we opt to use $X_2$ to predict Y?
