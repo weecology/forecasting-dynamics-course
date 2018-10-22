@@ -80,7 +80,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * October 23:  Forecasting using Species Distribution Models
     * Reading: [Species Distribution Models:Ecological Explanation and Prediction Across Space and Time](http://eurobasin.dtuaqua.dk/eurobasin/documents/Training%20ISM/Elith_and_Leathwick_2009.pdf)
     * Discussion Leader: Brittany
-    * Discussion Questions
+    * [Discussion Questions]({{ site.baseurl }}/discussion/SDMs)
     
 * *October 25: Species Distribution Models*  
     
