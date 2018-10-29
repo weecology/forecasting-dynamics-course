@@ -87,7 +87,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * October 30: Forecasting using State-space model [quantitative]
     * Reading: [Forecasting climate change impacts on plant populations over large spatial extents](https://doi.org/10.1002/ecs2.1525)
     * Discussion leader: Tal
-    * Discussion Questions
+    * [Discussion Questions]({{ site.baseurl }}/discussion/treddenick)
 
 * *November 1:  State-space model*
     
