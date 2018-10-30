@@ -99,7 +99,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
     * [How Hurricane Forecast Models Work](http://www.hurricanescience.org/science/forecast/models/modelswork/)
     * [Ensemble or Consensus Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/ensemble/)
     * Discussion leader: Morgan
-    * [Discussion questions]
+    * [Discussion questions]({{ site.baseurl }}/discussion/weather)
     * For fun: With your new knowledge on hurricane forecasting, you might find these articles about forecast accuracy of Hurricane Michael and Hurricane Florence interesting. These are not required for class.
         * [Hurricane Michael and why it’s so hard to predict storm intensity](https://www.vox.com/energy-and-environment/2018/10/11/17963958/hurricane-michael-forecast-track-intensity-category)
 	* [Surprise! The American weather model had the best forecasts for Hurricane Florence](https://www.washingtonpost.com/weather/2018/09/26/surprise-american-weather-model-had-best-forecasts-hurricane-florence/?utm_term=.b1cb011d15e4)
