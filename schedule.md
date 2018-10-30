@@ -92,13 +92,17 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *November 1:  State-space model*
     
 * November 6: How do other fields forecast - Hurricane Forecasting
-    * [How Hurricane Forecast Models Work](http://www.hurricanescience.org/science/forecast/models/modelswork/)
-    * [Numerical Weather Predictions](https://www.weather.gov/media/ajk/brochures/NumericalWeatherPrediction.pdf)
     * [Types of Hurricane Forecast Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/)
+    * [Statistical, Statistical-Dynamic, Trajectory Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/statistical/)
     * [Dynamical Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/dynamicalmodels/)
+    * [Numerical Weather Predictions/Ensemble Forecasting Explained](https://www.weather.gov/media/ajk/brochures/NumericalWeatherPrediction.pdf)
+    * [How Hurricane Forecast Models Work](http://www.hurricanescience.org/science/forecast/models/modelswork/)
     * [Ensemble or Consensus Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/ensemble/)
-    * Discussion leader: 
+    * Discussion leader: Morgan
     * [Discussion questions]
+    * For fun: With your new knowledge on hurricane forecasting, you might find these articles about forecast accuracy of Hurricane Michael and Hurricane Florence interesting. These are not required for class.
+        * [Hurricane Michael and why it’s so hard to predict storm intensity](https://www.vox.com/energy-and-environment/2018/10/11/17963958/hurricane-michael-forecast-track-intensity-category)
+	* [Surprise! The American weather model had the best forecasts for Hurricane Florence](https://www.washingtonpost.com/weather/2018/09/26/surprise-american-weather-model-had-best-forecasts-hurricane-florence/?utm_term=.b1cb011d15e4)
      
 * November 8: How do other fields forecast - Elections
     * Reading:[A User's Guide to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
