@@ -30,7 +30,7 @@ excellent
 ```{r}
 gflu = read.csv("http://www.google.org/flutrends/about/data/flu/us/data.txt",skip=11)
 time = as.Date(gflu$Date)
-y = gflu$Massachusetts
+y = gflu$Florida
 plot(time,y,type='l',ylab="Flu Index",lwd=2,log='y')
 ```
 
