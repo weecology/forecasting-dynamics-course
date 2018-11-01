@@ -102,13 +102,13 @@ model{
   
   #### Process Model
   for(i in 2:n){
-    x[i]~dnorm(x[i-1],tau_add)
+    x[i]~dnorm(x[i-1],tau_proc)
   }
   
   #### Priors
   x[1] ~ dnorm(x_ic,tau_ic)
   tau_obs ~ dgamma(a_obs,r_obs)
-  tau_add ~ dgamma(a_add,r_add)
+  tau_proc ~ dgamma(a_proc,r_proc)
 }
 "
 ```
@@ -118,13 +118,13 @@ model{
 ```{r}
 data <- list(y=log(y), n=length(y),
              x_ic=log(1000), tau_ic=100,
-			 a_obs=1, r_obs=1, a_add=1, r_add=1)
+			 a_obs=1, r_obs=1, a_proc=1, r_proc=1)
 ```
 
 * Starting point of parameters
 
 ```{r}
-init <- list(list(tau_add=1/var(diff(log(y))),tau_obs=5/var(log(y))))
+init <- list(list(tau_proc=1/var(diff(log(y))),tau_obs=5/var(log(y))))
 ```
 
 * Normally would want several chains with different starting positions to avoid
@@ -143,7 +143,7 @@ j.model   <- jags.model (file = textConnection(RandomWalk),
 
 ```{r}
 jags.out   <- coda.samples (model = j.model,
-                            variable.names = c("tau_add","tau_obs"),
+                            variable.names = c("tau_proc","tau_obs"),
                             n.iter = 1000)
 plot(jags.out)
 ```
@@ -152,7 +152,7 @@ plot(jags.out)
 
 ```{r}
 jags.out   <- coda.samples (model = j.model,
-                            variable.names = c("x","tau_add","tau_obs"),
+                            variable.names = c("x","tau_proc","tau_obs"),
                             n.iter = 10000)
 ```
 
@@ -176,10 +176,8 @@ points(time, y)
 
 ```
 ci <- apply(xs, 2, quantile, c(0.025, 0.975))
-polygon(cbind(c(time, rev(time), time[1]), c(ci[1,], rev(ci[2,]), ci[1,][1])),
-        border = NA, col="gray") 
-lines(time, predictions)
-points(time, y)
+lines(time, ci[1,], col = 'blue')
+lines(time, ci[2,], col = 'red)
 ```
 
 ## Forecasting
@@ -196,7 +194,7 @@ time = c(as.Date(gflu$Date), seq.Date(as.Date("2015-08-16"), as.Date("2016-08-09
 ## Uncertainty
 
 * The uncertainty is partitioned between process and observation models
-* Look at `tau_add` and `tau_obs` (as standard deviations)
+* Look at `tau_proc` and `tau_obs` (as standard deviations)
 
 ```{r}
 hist(1/sqrt(out[,1]))
