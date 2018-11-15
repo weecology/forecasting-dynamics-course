@@ -8,15 +8,18 @@ output:
 
 ## Data
 
-We'll model and forecast abundance data for *Dipodomys ordii*.
+* We'll model and forecast abundance data for *Dipodomys ordii*.
 
-```{r}
+```{r, message = FALSE}
 library(ggplot2)
 library(dplyr)
 library(portalr)
 library(rEDM)
+```
 
-#download_observations()
+* Download the data
+
+```{r}
 rodent_data = abundance(shape = "flat")
 do_data = filter(rodent_data, species == 'DO') %>%
   select(period, abundance) %>% 

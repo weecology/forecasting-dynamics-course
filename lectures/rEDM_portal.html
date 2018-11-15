@@ -131,22 +131,17 @@ $(document).ready(function () {
 
 <div id="data" class="section level2">
 <h2>Data</h2>
-<p>We’ll model and forecast abundance data for <em>Dipodomys ordii</em>.</p>
+<ul>
+<li>We’ll model and forecast abundance data for <em>Dipodomys ordii</em>.</li>
+</ul>
 <pre class="r"><code>library(ggplot2)
-library(dplyr)</code></pre>
-<pre><code>## 
-## Attaching package: 'dplyr'</code></pre>
-<pre><code>## The following objects are masked from 'package:stats':
-## 
-##     filter, lag</code></pre>
-<pre><code>## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union</code></pre>
-<pre class="r"><code>library(portalr)
-library(rEDM)
-
-#download_observations()
-rodent_data = abundance(shape = &quot;flat&quot;)</code></pre>
+library(dplyr)
+library(portalr)
+library(rEDM)</code></pre>
+<ul>
+<li>Download the data</li>
+</ul>
+<pre class="r"><code>rodent_data = abundance(shape = &quot;flat&quot;)</code></pre>
 <pre><code>## Loading in data version 1.64.0</code></pre>
 <pre class="r"><code>do_data = filter(rodent_data, species == 'DO') %&gt;%
   select(period, abundance) %&gt;% 
