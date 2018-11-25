@@ -8,7 +8,7 @@ output:
 
 ## Data
 
-* We'll model and forecast abundance data for *Dipodomys ordii*.
+We'll model and forecast abundance data for *Dipodomys ordii*.
 
 ```{r, message = FALSE}
 library(ggplot2)
@@ -155,3 +155,5 @@ ggplot(do_data, aes(x = period, y = abundance)) +
 ```
 
 
+* This is a single time step forecast
+* To try forecasting more than one month into the future use `tp`
