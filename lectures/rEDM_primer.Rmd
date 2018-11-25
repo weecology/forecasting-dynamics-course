@@ -72,10 +72,12 @@ Here, we'll just look at univariate forecasting, though there are examples for t
 
 We'll start by looking at sunspot data. Note that there is also monthly data, but it seems quite a bit noisier:
 ```{r}
+library(ggplot2)
 dat <- data.frame(yr = as.numeric(time(sunspot.year)), 
                   sunspot_count = as.numeric(sunspot.year))
 
-plot(dat$yr, dat$sunspot_count, type = "l")
+ggplot(dat, aes(x = yr, y = sunspot_count)) +
+  geom_line()
 ```
 
 ## Determining E
@@ -122,18 +124,23 @@ str(predictions)
 
 Let's plot the predictions against the original data:
 ```{r}
-plot(dat$yr, dat$sunspot_count, type = "l")
-lines(predictions$time, predictions$pred, col = "blue", lty = 2)
+ggplot(dat, aes(x = yr, y = sunspot_count)) +
+  geom_line() +
+  geom_line(data = predictions, mapping = aes(x = time, y = pred), color = 'blue')
 ```
 
 Since we also have an estimate of the prediction uncertainty, let's include that as well:
 ```{r}
-plot(dat$yr, dat$sunspot_count, type = "l")
-lines(predictions$time, predictions$pred, col = "blue", lty = 2)
-polygon(c(predictions$time, rev(predictions$time)), 
-        c(predictions$pred - sqrt(predictions$pred_var), 
-        rev(predictions$pred + sqrt(predictions$pred_var))), 
-        col = rgb(0, 0, 1, 0.5), 
-        border = NA)
+ggplot(dat, aes(x = yr, y = sunspot_count)) +
+  geom_line() +
+  geom_line(data = predictions, mapping = aes(x = time, y = pred), color = 'blue') +
+  geom_ribbon(data = predictions,
+              mapping = aes(x = time,
+                            y = pred,
+                            ymax = pred + sqrt(pred_var),
+                            ymin = pred - sqrt(pred_var)),
+              fill = 'blue',
+              alpha = 0.2)
 ```
+
 
