@@ -2,11 +2,9 @@
 layout: nil
 ---
 
-* What is a scenario?
-* How does scenario planning differ from other approaches to forecasting?
-* What are some uses of scenario planning?
-* What do you think about this as an approach to informing how ecological
-  systems will change in the future?
-* What are some of the key components of the scenario planning process?
-* Describe an example where scenario planning would be useful in ecology (not
-  one of the examples from the paper).
+1. How will you define an "ecological surprise"? Give some examples.
+2. What is the difference between scenario planning, and predictions and forecasting? Give some examples.
+3. Which are the benefits of scenario planning? 
+4. How will you define "ecological feedback"? Give some examples.
+5. Which are the reasons that scenario planning should include ecology as part of their the process?
+6. How will incorporating global scenarios should benefit ecologist and ecosystem managers?
