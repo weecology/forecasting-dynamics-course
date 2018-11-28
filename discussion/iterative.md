@@ -1,5 +1,6 @@
-
-
+---
+layout: nil
+---
 
 * What are some differences found between the iterative forecasting discussed in this reading and the forecasting we’ve covered previously this semester?
 * The paper mentions four unique characteristics of data for iterative forecasting. What are they and how are they useful? What are some challenges and/or opportunities found in each?
