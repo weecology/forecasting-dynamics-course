@@ -23,7 +23,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * September 3: Community Dynamics – Species Composition and Richness 
     * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
-    * Discussion leader: Alex
+    * Discussion leader: 
     * [Discussion questions]({{ site.baseurl }}/discussion/dornelas)
 
 * *September 5:  Working with time series data in R*
@@ -37,7 +37,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * September 10: Changes in phenology
     * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
-    * Discussion leader: Maria
+    * Discussion leader: 
     * [Discussion questions]({{ site.baseurl }}/discussion/phenology)
 
 * *September 12: Basics of Time Series – Time Series Decomposition*
@@ -65,26 +65,33 @@ Activity days when laptops are required are noted in italics. Discussion leaders
        
 * October 8: Importance of uncertainty
     * Reading: [Dietze Chapter 2](https://ebookcentral.proquest.com/lib/UFL/detail.action?docID=4866481#goto_toc)
-    * Discussion leader: Virnaliz
+    * Discussion leader: 
     * [Discussion questions]({{ site.baseurl }}/discussion/dietz-ch2-questions)
 
 * *October 10: Evaluating forecasts*
 
 * October 15: Forecasting using State-space model [quantitative]
     * Reading: [Forecasting climate change impacts on plant populations over large spatial extents](https://doi.org/10.1002/ecs2.1525)
-    * Discussion leader: Tal
+    * Discussion leader: 
     * [Discussion Questions]({{ site.baseurl }}/discussion/treddenick)
 
-* *October 17:  State-space model*
+* *October 17: State-space model*
 
-* October 22:  Forecasting using Species Distribution Models
+* *October 22: State-space model pt 2*
+
+* October 24: Near-term Iterative Forecasting
+    * Reading: [Iterative near-term ecological forecasting: Needs, opportunities, and challenges](https://doi.org/10.1073/pnas.1710231115 )
+    * Discussion Leader: 
+    * Discussion [Questions]({{ site.baseurl }}/discussion/iterative)
+
+* October 29:  Forecasting using Species Distribution Models
     * Reading: [Species Distribution Models:Ecological Explanation and Prediction Across Space and Time](http://eurobasin.dtuaqua.dk/eurobasin/documents/Training%20ISM/Elith_and_Leathwick_2009.pdf)
-    * Discussion Leader: Brittany
+    * Discussion Leader: 
     * [Discussion Questions]({{ site.baseurl }}/discussion/SDMs)
     
-* *October 24: Species Distribution Models* 
+* *October 31: Species Distribution Models* 
 
-* October 29: How do other fields forecast - Hurricane Forecasting
+* November 5: How do other fields forecast - Hurricane Forecasting
     * [Types of Hurricane Forecast Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/)
     * [Statistical, Statistical-Dynamic, Trajectory Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/statistical/)
     * [Dynamical Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/dynamicalmodels/)
@@ -97,36 +104,31 @@ Activity days when laptops are required are noted in italics. Discussion leaders
         * [Hurricane Michael and why it’s so hard to predict storm intensity](https://www.vox.com/energy-and-environment/2018/10/11/17963958/hurricane-michael-forecast-track-intensity-category)
 	* [Surprise! The American weather model had the best forecasts for Hurricane Florence](https://www.washingtonpost.com/weather/2018/09/26/surprise-american-weather-model-had-best-forecasts-hurricane-florence/?utm_term=.b1cb011d15e4)
      
-* October 31: How do other fields forecast - Elections
+* November 7: How do other fields forecast - Elections
     * Reading:[A User's Guide to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
     * Reading: [Which election forecast should you trust](http://www.slate.com/articles/news_and_politics/politics/2016/08/fivethirtyeight_vs_the_upshot_who_should_you_trust_to_forecast_the_2016.html)
-    * Discussion leader: Travis
+    * Discussion leader: 
     * [Discussion questions]({{ site.baseurl }}/discussion/elections)
     
-* November 5: Data-driven models for forecasting [quantitative]
+* November 12: Data-driven models for forecasting [quantitative]
     * Reading: [Equation-free mechanistic ecosystem forecasting using empirical dynamic modeling](https://doi.org/10.1073/pnas.1417063112) 
     * YouTube video: https://www.youtube.com/watch?v=fevurdpiRYg
-    * Discussion leader: David
+    * Discussion leader: 
     * [Discussion questions]({{ site.baseurl }}/discussion/edm)
 
-* *November 7:  Empirical Dynamic Modeling Tutorial*
+* *November 14:  Empirical Dynamic Modeling Tutorial*
     * [Code]({{ site.baseurl }}/lectures/rEDM_primer)    
 
-* November 12: New section Complex dynamics
+* November 19: Operational Forecasting
+    * Reading: [Lonnie Gonsalves talk]()
 
-* *November 14: GAMs*
-
-* November 19: Scenario based foreasting
+* November 21: Scenario based foreasting
     * Reading: [Why global scenarios need ecology](https://doi.org/10.1890/1540-9295(2003)001[0322:WGSNE]2.0.CO;2)
-    * Discussion leader: Diego
+    * Discussion leader: 
     * [Discussion questions]({{ site.baseurl }}/discussion/scenarios)
-    
-* November 21:  Near-term Iterative Forecasting
-    * Reading: [Iterative near-term ecological forecasting: Needs, opportunities, and challenges](https://doi.org/10.1073/pnas.1710231115 )
-    * Discussion Leader: Ryan
-    * Discussion [Questions]({{ site.baseurl }}/discussion/iterative)  
-    
-* November 26: Thanksgiving week
+       
+* November 26: Ethics of Forecasting
+    * Reading: [Ethical considerations and unanticipated consequences associated with ecological forecasting for marine resources](https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsy210/5303214)
  
 * December 3: Can we forecast in ecology (and what can we forecast)?
     * Reading: [Prediction, precaution, and policy under global change](https://doi.org/10.1126/science.1261824)
