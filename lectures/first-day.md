@@ -19,20 +19,22 @@ title: Course Introduction
 # How the course will run
 
 * Mix of paper discussion & R tutorials
-* Grades - 100% participation
-    * Leading one discussion
-	* Participating in paper discussions in class
-	* If you're worried that you aren't able to participate sufficiently let us know
-	* Participating in R tutorials
 * Discussion
-    * Each student will lead one paper discussion
-	* We will lead the rest
-    * Discussion questions provided by Sunday night
+    * Read paper in advance
+    * Questions to think about provided to help guide thinking while reading
 * R tutorials
     * Introductions to methods for working with dynamic data and forecasting
-	* I do, we do
+	* I do, we do, you do
 	* We will demonstrate a concept, have you follow along on your computers,
       and then have you do something very similar in class
+  * There will then be an assignment to do something very similar on your own
+* Grades
+  * 50% participation
+	  * Participating in paper discussions in class
+	  * If you're worried that you aren't able to participate sufficiently let us know
+	  * Participating in R tutorials
+  * 50% assignments
+    * 5 assignments using R to work with data and make forecasts
 
 # Opening discussion
 
