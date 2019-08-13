@@ -7,7 +7,7 @@ title: Syllabus
 
   |**Instructors**        |Dr. Morgan Ernest        | Dr. Ethan White
   |**Office Location**    |Building 150, Room 2     | Building 150, Room 1
-  |**Phone**              |352-294-2082             | 352-294-2084
+  |**Phone**              |352-294-2082             | 352-294-2081
   |**Email (preferred)**  |<skmorgane@ufl.edu>      | <ethanwhite@ufl.edu>
   |**Office Hours**       |                         |
                                                  
@@ -30,23 +30,23 @@ concepts of how to forecast those changes. By the end of the semester, students 
 2)  Understand the basic concepts of forecasting that apply across fields 
     and the challenges within ecology
 
-3)  Have a basic understanding of working with time series data
+3) Have a basic understanding of working with time series data
+
+4) Be able to fit models to data and use those models to make forecasts
 
 #### **General Course Structure and Expectations**
 
-This course is a mixture class discussion of primary literature and
-hands-on experience involving some class activities. Completing assigned
-readings, intellectual engagement with topics, and discussion
-participation are the main ways students will learn in this class.
-Tuesdays are typically concept discussion days. Thursdays will be a mix
-of tools or concept discussion. You are expected to come prepared to
-discuss the assigned papers.
+This course is a mixture class discussion of primary literature and hands-on
+experience involving data and computing. Completing assigned readings,
+intellectual engagement with topics, discussion participation, and completion of
+assignments are the main ways students will learn in this class. Tuesdays are
+typically concept discussion days. Thursdays will be a mix of tools or concept
+discussion. You are expected to come prepared to discuss the assigned papers.
 
 #### **Course Grading**
 
-80% of grade will be based on class participation, which includes leading one 
-discussion during the semester 
-20% will be based on completeion of class activities
+* 50% of grade will be based on class participation including discussing papers and participating in in-class tutorials
+* 50% will be based on completion of assignments
 
 #### **Attendance Policy**
 
@@ -55,26 +55,19 @@ to submit make-up work, though we recommend that students attempt any
 missed class activities on their own time because additional class 
 activities or discussions may rely on that knowledge. 
 
-Up to 4 additional missed days can be made-up by submitting make-up work.
-Class activities can be made-up on the student's time within a week by doing
-the activity and submitting the code/data for instruvtor evaluation. Missed 
+Additional missed days can be made-up by submitting make-up work.
+Class activities can be made-up on the student's time by doing
+the activity and submitting the code/data. Missed 
 discussions can be made up by providing a written summary of the readings 
-for the day(s) missed. Written summaries will involve 1-paragraph summary of the 
+for the day(s) missed. Written summaries should be a 1-paragraph summary of the 
 main questions and findings for each assigned paper and 1 paragraph applying the 
 paper to how we think about either ecological dynamics or forecasting.
 
-If a student anticpates missing more than 6 class days (i.e. 3 weeks of classes), you
-must talk to the instructors beforehand.
-
 #### **Course Materials**
 
-1)  The free online text book [Forecasting: Principles and Practice](https://www.otexts.org/fpp) 
-    will be used for some class activities, but is not required
+1) All reading materials are made available through the [course website](https://weecology.github.io/forecasting-dynamics-course/). If you are off campus you may need to use the VPN to access some of them.
 
-2)  All reading materials will be made available through the [course website](https://weecology.github.io/forecasting-dynamics-course/). 
-    
-
-3)  Laptops: On class activity days, laptops will be required for class.
+2)  Laptops: On class activity days, laptops will be required for class.
 
 
 ### **UF Policies**
