@@ -1,4 +1,5 @@
 ---
+title: Why dynamics & forecasting?
 layout: nil
 ---
 
@@ -27,4 +28,4 @@ layout: nil
 
 * What is your impression of how the "next steps" discussed here have been
   implemented in the last 15 years?
-* What should the nexts steps be for the next 15 years?
+* What should the next steps be for the next 15 years?
