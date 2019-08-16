@@ -9,15 +9,9 @@ layout: nil
 
 ### Questions for Novel Climate paper
 
-* How did communities change in the Pleistocene?
-* WHat seems to have caused that?
-* What was different about climate in the Pleistocene?
-* What is a no-analog community?
-* How do no-analog communities arise?
-* How did the authors assess whether this would be a problem in the future?
-* What are the challenges for predicting responses to globally novel climates?
-* What’s the difference between a globally novel and a regionally novel climate?
-* Why are regionally novel climates a challenge for species?
-* What area of the world will be the most difficult to predict the dynamics of?
+* What is a no-analog community and why did they show up in the Pleistocene?
+* Are the issues that created non-analog communities in the past likely to be issues in the future? Why?
+* Are there different challenges for species with global vs. regionally novel climates?
+* What are the challenges for predicting species responses to regionally or globally novel climates?
 * What do changes in the past tell us about what to expect in the future?
 * What does the past tell us about the challenges we may face with forecasting?
