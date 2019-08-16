@@ -38,4 +38,5 @@ title: Course Introduction
 
 # Opening discussion
 
+* Why do we want to forecast?
 * Do we think we can forecast successfully in ecology?
