@@ -5,7 +5,7 @@ title: Syllabus
 
 ## WIS 6934 Ecological Dynamics and Forecasting
 
-  |**Instructors**        |Dr. Morgan Ernest        | Dr. Ethan White
+  |**Instructors**        |Dr. Morgan Ernest (she/her)       | Dr. Ethan White (he/him)
   |**Office Location**    |Building 150, Room 2     | Building 150, Room 1
   |**Phone**              |352-294-2082             | 352-294-2081
   |**Email (preferred)**  |<skmorgane@ufl.edu>      | <ethanwhite@ufl.edu>
