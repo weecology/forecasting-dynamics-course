@@ -7,11 +7,10 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * August 20: Introduction. Can we forecast in ecology?
     * Discussion Leader: Ethan and Morgan
 
-* August 22: Why dynamics and forecasting? (reading)
+* August 22: Introduction to ecological forecasting (reading)
     * Video: [NEON: Forecasting](https://www.youtube.com/watch?v=Lgi_e7N-C8E)
-    * Reading:[Ecological Forecasts: An Emerging Imperative](https://doi.org/10.1126/science.293.5530.657)
-    * Discussion leader: Ethan
-        * [Discussion questions]({{ site.baseurl }}/discussion/clark_etal_2001)
+    * Reading:[Ecological forecasting and data assimilation in a data-rich era](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/09-1275.1) **ONLY through the end of the Uses of Models for Ecological Forecasting section**
+    * [Discussion questions]({{ site.baseurl }}/discussion/intro-to-forecasting)
 
 * August 27: Paleo dynamics - Pleistocene/Holocene transition
     * Reading: Just the Introduction of [Ecological Change, Range Fluctuations and Population Dynamics during the Pleistocene](https://doi.org/10.1016/j.cub.2009.06.030) (i.e. stop when you reach the section titled "The Glacial Refugium Theory")
