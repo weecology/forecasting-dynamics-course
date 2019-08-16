@@ -9,7 +9,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * August 22: Introduction to ecological forecasting (reading)
     * Video: [NEON: Forecasting](https://www.youtube.com/watch?v=Lgi_e7N-C8E)
-    * Reading:[Ecological forecasting and data assimilation in a data-rich era](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/09-1275.1) **ONLY through the end of the Uses of Models for Ecological Forecasting section**
+    * Reading: [Ecological forecasting and data assimilation in a data-rich era](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/09-1275.1) **(through end of the Uses of Models for Ecological Forecasting section)**
     * [Discussion questions]({{ site.baseurl }}/discussion/intro-to-forecasting)
 
 * August 27: Paleo dynamics - Pleistocene/Holocene transition
