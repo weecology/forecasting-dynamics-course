@@ -34,7 +34,7 @@ title: Course Introduction
 	  * If you're worried that you aren't able to participate sufficiently let us know
 	  * Participating in R tutorials
   * 50% assignments
-    * 5 assignments using R to work with data and make forecasts
+    * 4 assignments using R to work with data and make forecasts
 
 # Opening discussion
 
