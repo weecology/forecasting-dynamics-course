@@ -43,9 +43,27 @@ assignments are the main ways students will learn in this class. Tuesdays are
 typically concept discussion days. Thursdays will be a mix of tools or concept
 discussion. You are expected to come prepared to discuss the assigned papers.
 
+#### **Paper Discussion Participation**
+
+There are two general approaches to participating in paper discussion.
+
+The first is to attend class and partipate in the group discussion about the paper. This
+discussion is generally centered around the discussion questions that are provided
+in advance but may also expand beyond them. Our goal is to produce a classroom environment
+where everyone is comfortable participating in class discussions. We will try to manage
+discussions so that everyone has a chance to contribute and make sure that folks who are
+less comfortable interjecting get a chance to participate. We welcome your help in making
+sure that everyone in the class gets a chance to contribute.
+
+If you can't or don't want to participate in conversations about papers in class you can
+write up short answers to the provided discussion questions and send them to us each week.
+You can choose to either have use read them ourselves and count them as participation or
+let us know that you would like us to share those ideas for you by reading some of them in
+class as we talk about relevant material.
+
 #### **Course Grading**
 
-* 50% of grade will be based on class participation including discussing papers and participating in in-class tutorials
+* 50% of grade will be based on participation including discussing papers and participating in in-class tutorials
 * 50% will be based on completion of assignments
 
 #### **Attendance Policy**
@@ -58,10 +76,10 @@ activities or discussions may rely on that knowledge.
 Additional missed days can be made-up by submitting make-up work.
 Class activities can be made-up on the student's time by doing
 the activity and submitting the code/data. Missed 
-discussions can be made up by providing a written summary of the readings 
-for the day(s) missed. Written summaries should be a 1-paragraph summary of the 
-main questions and findings for each assigned paper and 1 paragraph applying the 
-paper to how we think about either ecological dynamics or forecasting.
+discussions can be made up by providing written responses to the discussion questions
+on the readings for the day(s) missed. Two to three sentences per question
+is an approximate guideline for the length of response to each question, but
+feel free to write more or less as appropriate.
 
 #### **Course Materials**
 
