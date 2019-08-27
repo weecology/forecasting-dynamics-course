@@ -2,7 +2,7 @@
 layout: nil
 ---
 
-* What is temporal alpha diversity and temporal beta diversity in this paper?
+* What is temporal alpha diversity and temporal beta diversity as defined in this paper?
 * How are they changing through time?
 * According to the authors, “An analysis of slopes by climatic regions reveals that temperate time series have a significantly positive trend in species richness, and time series sampled at a global scale show a significantly negative trend in species richness.” What could be driving these differences?
 * Every study is limited by its data. What limits on our ability to understand the dynamics of nature are imposed by their data? 
