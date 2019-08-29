@@ -17,8 +17,10 @@ title: Time Series Data
 * Ask what types are more common for going further back in time vs. more recent
 * Draw these gradients on board
 
-* How common are the different types?
 * How long do you think most ecological studies/time-series are?
+* Show [Recent study by Estes et al. 2018](https://www.nature.com/articles/s41559-018-0524-4/figures/1)
+
+* If you wanted to make a forecast for something you are interested in what do you think the most readily available type of data would be and do you know any specific examples?
 
 ### Examples of ecological time-series data
 
