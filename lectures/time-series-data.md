@@ -9,7 +9,9 @@ title: Time Series Data
 * Talk about each type as it is brought up
 * Give or ask for examples of each data type as it is brought up
 * Write them down on the board in a horizontal line from "further back in
-  time/easier" to "more recent/more difficult"
+  time/easier" to "more recent/more difficult". Spatial only data will come
+  up, write it in a separate (off on one end) section with a "spatial only"
+  label.
   
 `Resurvey -> Idiosyncratic -> Continuous w/Gaps -> Continuous`
 
