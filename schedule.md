@@ -20,11 +20,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
  
 * *August 29: Time series data*
 
-* September 3: Community Dynamics – Species Composition and Richness 
-    * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
-    * Discussion leader: Morgan
-
-[//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/dornelas)
+* September 3: CANCELLED DUE TO HURRICANE
 
 * *September 5:  Working with time series data in R*
     * Before class install R Packages: ggplot2, lubridate, dplyr
@@ -32,19 +28,21 @@ Activity days when laptops are required are noted in italics. Discussion leaders
           * [NEON_HarvardForest_date.csv]({{ site.baseurl }}/data/NEON_Harvardforest_date_2001_2006.csv)
             * [NEON_HarvardForest_datetime.csv]({{site.baseurl }}/data/NEON_Harvardforest_datetime.csv)
 
-* September 10: Changes in phenology
-    * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
+* September 10: Community Dynamics – Species Composition and Richness 
+    * Reading: [Assemblage time series reveal biodiversity change but not systematic loss](https://doi.org/10.1126/science.1248484)
     * Discussion leader: Morgan
 
-[//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/phenology)
+[//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/dornelas) 
 
 * *September 12: Basics of Time Series – Time Series Decomposition*
       * Bring computers. Install the R package: forecast
       * Data file: [portal_timeseries.csv]({{ site.baseurl }}/data/portal_timeseries.csv)
      
-* September 17: Stable changes, seasonality, autocorrelation OR population dynamics 101
+* September 17: Changes in phenology
+    * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
+    * Discussion leader: Morgan
 
-[//]: #      * Possible: https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1890/0012-9658%281997%29078%5B2603%3APDOTDA%5D2.0.CO%3B2?casa_token=gjVAceqzSr8AAAAA:epecAcaJF_HbvT0GyTfybqntJTGCmN90CVXMt3qy-c7YTNeybleGH5BU5es1k3sf8tB1kXXmfvCAnu_f
+[//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/phenology)
 
 * *September 19: Basics of Time Series – Time Series Autocorrelation*
      
