@@ -40,16 +40,14 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * September 17: Changes in phenology
     * Reading [Shifting plant phenology in response to global change](https://doi.org/10.1016/j.tree.2007.04.003)
     * Discussion leader: Morgan
-
-[//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/phenology)
+    * [Discussion questions]({{ site.baseurl }}/discussion/phenology)
 
 * *September 19: Basics of Time Series – Time Series Autocorrelation*
      
 * September 24: Regime shifts
     * Reading: [Repeated regime shifts in a desert rodent community](https://doi.org/10.1002/ecy.2373)
     * Discussion leader: Morgan
-
-[//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/rapidtransitions)
+    * [Discussion questions]({{ site.baseurl }}/discussion/rapidtransitions)
 
 * *September 26: Introduction to time-series modeling*
  
