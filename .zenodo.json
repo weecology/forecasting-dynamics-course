@@ -1,0 +1,22 @@
+{
+"creators": [
+    {
+      "affiliation": "University of Florida",
+      "name": "S. K. Morgan Ernest",
+      "orcid": "0000-0002-6026-8530"
+    },
+    {
+      "affiliation": "University of Florida",
+      "name": "Ethan P. White",
+      "orcid": "0000-0001-6728-7745"
+    }, 
+    {
+      "affiliation": "University of Florida",
+      "name": "Hao Ye",
+      "orcid": "0000-0002-8630-1458"
+    }
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  }
+}
