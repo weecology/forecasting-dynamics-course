@@ -17,13 +17,12 @@ layout: nil
 ## Determining what to forecast
 
 * How should we think about what to forecast in ecology?
-* What kind of data would be need to collect to make good forecasts for these
-  things?
 
 ## Forecasting data and methods
 
-* What are the differences between cross-sectional and time-series forecasting?
-* When might these different approaches be most appropriate?
+* What are the differences between explanatory and time-series models for
+  forecasting?
+* When might these different approaches be most appropriate in ecology?
 
 ## Case studies
 
