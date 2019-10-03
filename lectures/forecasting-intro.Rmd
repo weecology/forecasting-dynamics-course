@@ -9,7 +9,8 @@ output: html_document
 library(forecast)
 library(ggplot2)
 
-data = read.csv("portal_timeseries.csv", stringsAsFactors = FALSE, colClasses = c("date" = "character"))
+data = read.csv("portal_timeseries.csv", stringsAsFactors = FALSE)
+data$date = as.Date(data$date, format = "%m/%d/%Y")
 head(data)
 NDVI_ts = ts(data$NDVI, start = c(1992, 3), end = c(2014, 11), frequency = 12)
 ```
@@ -101,7 +102,7 @@ autoplot(avg_forecast)
 
 ```{r}
 avg_forecast
-avg_forecast <- meanf(NDVI_ts, level = c(50, 95))
+avg_forecast <- forecast(avg_model, level = c(50, 95))
 avg_forecast
 plot(avg_forecast)
 ```
@@ -157,11 +158,12 @@ plot(seasonal_arima_forecast)
 
 ```{r}
 library(dplyr)
+library(lubridate)
 
 data$date = as.Date(data$date, "%m/%d/%Y")
 monsoon_data <- data %>%
-  mutate(month = format(date, "%m"), year = format(date, "%Y")) %>% 
-  filter(month %in% c("07", "08", "09")) %>%
+  mutate(month = month(date), year = year(date)) %>% 
+  filter(month %in% c(7, 8, 9)) %>%
   group_by(year) %>%
   summarize(monsoon_rain = sum(rain), monsoon_ndvi = mean(NDVI))
 ```
