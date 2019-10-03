@@ -60,9 +60,8 @@ Activity days when laptops are required are noted in italics. Discussion leaders
        
 * October 8: Importance of uncertainty
     * Reading: [Dietze Chapter 2](https://ebookcentral.proquest.com/lib/UFL/detail.action?docID=4866481#goto_toc)
-    * Discussion leader: 
-
-[//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/dietz-ch2-questions)
+    * Discussion leader: Ethan
+    * [Discussion questions]({{ site.baseurl }}/discussion/dietz-ch2-questions)
 
 * *October 10: Evaluating forecasts*
 
