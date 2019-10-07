@@ -10,12 +10,11 @@ layout: nil
 * What is the difference between the additive process error and observation
   error?
 * What information do covariance matrices provide?
-* What is model averaging?
 
 ## Thinking probabilistically
 
 * How do the boxes in the the graphical model of logistic growth relate to the
-  sources of error?
+  sources of uncertainty?
 
 ## Predictability
 
