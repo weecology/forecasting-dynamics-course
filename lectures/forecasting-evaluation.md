@@ -28,6 +28,7 @@ acf(NDVI_ts)
 
 ## Hindcasting
 
+* Split existing time-series into 2 pieces
 * Fit to data from the first part of an observed time-series
 * Test on data from the end of the observed time-series
 
