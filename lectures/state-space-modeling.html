@@ -1,0 +1,162 @@
+<p><em>Adapted from the <a href="https://github.com/EcoForecast/EF_Activities/blob/master/Exercise_06_StateSpace.Rmd">state space modeling activity</a> from Michael Dietz's excellent <a href="https://www.amazon.com/Ecological-Forecasting-Michael-C-Dietze/dp/0691160570">Ecological Forecasting book</a></em></p>
+<blockquote>
+<p>JAGS needs to be installed: https://sourceforge.net/projects/mcmc-jags/files/ rjags R package needs to be installed</p>
+</blockquote>
+<h1 id="state-space-model-forecasting">State-space model forecasting</h1>
+<h2 id="state-space-models">State space models</h2>
+<ul>
+<li>Time-series model</li>
+<li>Only first order autoregressive component</li>
+<li>Separately model</li>
+<li>the process model - how the system evolves in time or space</li>
+<li>the observation model - observation error or indirect observations</li>
+<li>Estimates the true value of the underlying <strong>latent</strong> state variables</li>
+</ul>
+<h2 id="data">Data</h2>
+<ul>
+<li>Google Flu Trends data for Florida</li>
+<li><a href="https://www.google.org/flutrends/about/data/flu/us/data.txt" class="uri">https://www.google.org/flutrends/about/data/flu/us/data.txt</a></li>
+</ul>
+<pre class="{r}"><code>gflu = read.csv(&quot;http://www.google.org/flutrends/about/data/flu/us/data.txt&quot;,skip=11)
+time = as.Date(gflu$Date)
+y = gflu$Florida
+plot(time,y,type=&#39;l&#39;,ylab=&quot;Flu Index&quot;,lwd=2,log=&#39;y&#39;)</code></pre>
+<blockquote>
+<p>Draw on board while walking through models</p>
+</blockquote>
+<pre><code>y_t-1    y_t    y_t+1
+  |       |       |
+x_t-1 -&gt; x_t -&gt; x_t+1   Process model</code></pre>
+<h3 id="process-model">Process model</h3>
+<ul>
+<li>What is actually happening in the system</li>
+<li>First order autoregressive component</li>
+</ul>
+<p>x_t+1 = f(x_t) + e_t</p>
+<ul>
+<li>Simple linear model is AR1:</li>
+</ul>
+<p>x_t+1 = b0 + b1 * x_t + e_t</p>
+<h3 id="observation-model">Observation model</h3>
+<ul>
+<li>Google searches aren't perfect measures of the number of flu cases (which are what should be changing in the process model and what we care about)</li>
+<li>So model this imperfect observation</li>
+</ul>
+<p>y_t = x_t + e_t</p>
+<ul>
+<li>Can be much more complicated</li>
+</ul>
+<h2 id="model-framework">Model Framework</h2>
+<ul>
+<li>Models like this are not trivial to fit</li>
+<li>Use <a href="http://mcmc-jags.sourceforge.net">JAGS (Just Another Gibbs Sampler)</a> to fit the model using Bayesian methods. The <code>rjags</code> library use R to call JAGS.</li>
+</ul>
+<pre class="{r}"><code>library(rjags)</code></pre>
+<h2 id="model">Model</h2>
+<ul>
+<li>JAGS code to describe the model</li>
+<li>Store as string in R</li>
+<li>Three components</li>
+<li>data/error model
+<ul>
+<li>relates observed data (y) to latent variable (x)</li>
+<li>Gaussian obs error</li>
+</ul></li>
+<li>process model
+<ul>
+<li>relates state of the system at <em>t</em> to the state at <em>t-1</em></li>
+<li>random walk (x_t = x_t-1 + e_t)</li>
+</ul></li>
+<li>priors</li>
+<li>Bayesian methods need priors, or starting points for model fitting</li>
+</ul>
+<pre class="{r}"><code>RandomWalk = &quot;
+model{
+  
+  #### Data Model
+  for(i in 1:n){
+    y[i] ~ dnorm(x[i], tau_obs)
+  }
+  
+  #### Process Model
+  for(i in 2:n){
+    x[i]~dnorm(x[i-1], tau_proc)
+  }
+  
+  #### Priors
+  x[1] ~ dnorm(x_ic, tau_ic)
+  tau_obs ~ dgamma(a_obs, r_obs)
+  tau_proc ~ dgamma(a_proc, r_proc)
+}
+&quot;</code></pre>
+<ul>
+<li>Data and priors as a list</li>
+</ul>
+<pre class="{r}"><code>data &lt;- list(y=log(y),
+             n=length(y),
+             x_ic=log(1000),
+             tau_ic=100,
+             a_obs=1,
+             r_obs=1,
+             a_proc=1,
+             r_proc=1)</code></pre>
+<ul>
+<li>Starting point of parameters</li>
+</ul>
+<pre class="{r}"><code>init &lt;- list(list(tau_proc=1/var(diff(log(y))),tau_obs=5/var(log(y))))</code></pre>
+<ul>
+<li><p>Normally would want several chains with different starting positions to avoid local minima</p></li>
+<li><p>Send to JAGS</p></li>
+</ul>
+<pre class="{r}"><code>j.model   &lt;- jags.model (file = textConnection(RandomWalk),
+                         data = data,
+                         inits = init,
+                         n.chains = 1)</code></pre>
+<ul>
+<li>Burn in</li>
+</ul>
+<pre class="{r}"><code>jags.out   &lt;- coda.samples (model = j.model,
+                            variable.names = c(&quot;tau_proc&quot;,&quot;tau_obs&quot;),
+                            n.iter = 1000)
+plot(jags.out)</code></pre>
+<ul>
+<li>Sample from MCMC with full vector of X's</li>
+</ul>
+<pre class="{r}"><code>jags.out   &lt;- coda.samples (model = j.model,
+                            variable.names = c(&quot;x&quot;,&quot;tau_proc&quot;,&quot;tau_obs&quot;),
+                            n.iter = 10000)</code></pre>
+<ul>
+<li>Visualize</li>
+<li>Convert the output into a matrix &amp; drop parameters</li>
+</ul>
+<pre class="{r}"><code>out &lt;- as.matrix(jags.out)
+xs &lt;- exp(out[,3:ncol(out)])</code></pre>
+<ul>
+<li>Point predictions are averages across MCMC samples</li>
+</ul>
+<pre><code>predictions &lt;- colMeans(xs)
+plot(time, predictions, type = &quot;l&quot;)
+points(time, y)</code></pre>
+<ul>
+<li>Add prediction intervals as range containing 95% of MCMC samples</li>
+</ul>
+<pre><code>ci &lt;- apply(xs, 2, quantile, c(0.025, 0.975))
+lines(time, ci[1,], col = &#39;blue&#39;)
+lines(time, ci[2,], col = &#39;red&#39;)</code></pre>
+<h2 id="forecasting">Forecasting</h2>
+<ul>
+<li>Add NAs for values to be forecast</li>
+</ul>
+<blockquote>
+<p>Make these changes at top of script and rerun</p>
+</blockquote>
+<pre><code>y = c(gflu$Massachusetts, rep(NA, 52))
+time = c(as.Date(gflu$Date), seq.Date(as.Date(&quot;2015-08-16&quot;), as.Date(&quot;2016-08-09&quot;), &quot;week&quot;))</code></pre>
+<h2 id="uncertainty">Uncertainty</h2>
+<ul>
+<li>The uncertainty is partitioned between process and observation models</li>
+<li>Look at <code>tau_proc</code> and <code>tau_obs</code> (as standard deviations)</li>
+</ul>
+<pre class="{r}"><code>hist(1/sqrt(out[,1]))
+hist(1/sqrt(out[,2]))
+plot(out[,1], out[,2])</code></pre>

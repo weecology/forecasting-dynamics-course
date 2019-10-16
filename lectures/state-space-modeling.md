@@ -16,11 +16,12 @@ excellent
 
 ## State space models
 
-* Include first order autoregressive component only
+* Time-series model
+* Only first order autoregressive component
 * Separately model
-    * the process model - how the system evolves in time or space
-	* the observation model - observation error or indirect observations
-* Estimates that true value of the underlying **latent** state variables
+  * the process model - how the system evolves in time or space
+  * the observation model - observation error or indirect observations
+* Estimates the true value of the underlying **latent** state variables
 
 ## Data
 
@@ -70,7 +71,7 @@ y_t = x_t + e_t
 
 * Models like this are not trivial to fit
 * Use [JAGS (Just Another Gibbs Sampler)](http://mcmc-jags.sourceforge.net) to
-  fit the model using Bayesian methods. The rjags library use R to call JAGS.
+  fit the model using Bayesian methods. The `rjags` library use R to call JAGS.
 
 ```{r}
 library(rjags)
@@ -82,13 +83,13 @@ library(rjags)
 * JAGS code to describe the model
 * Store as string in R
 * Three components
-    * data model
-	    * relates observed data (y) to latent variable (x)
-		* Gaussian obs error
-	* process model
-	    * relates state of the system at *t* to the state at *t-1*
-		* random walk (x_t = x_t-1 + e_t)
-	* priors
+  * data/error model
+    * relates observed data (y) to latent variable (x)
+    * Gaussian obs error
+  * process model
+    * relates state of the system at *t* to the state at *t-1*
+    * random walk (x_t = x_t-1 + e_t)
+  * priors
 * Bayesian methods need priors, or starting points for model fitting
 
 ```{r}
@@ -97,18 +98,18 @@ model{
   
   #### Data Model
   for(i in 1:n){
-    y[i] ~ dnorm(x[i],tau_obs)
+    y[i] ~ dnorm(x[i], tau_obs)
   }
   
   #### Process Model
   for(i in 2:n){
-    x[i]~dnorm(x[i-1],tau_proc)
+    x[i]~dnorm(x[i-1], tau_proc)
   }
   
   #### Priors
-  x[1] ~ dnorm(x_ic,tau_ic)
-  tau_obs ~ dgamma(a_obs,r_obs)
-  tau_proc ~ dgamma(a_proc,r_proc)
+  x[1] ~ dnorm(x_ic, tau_ic)
+  tau_obs ~ dgamma(a_obs, r_obs)
+  tau_proc ~ dgamma(a_proc, r_proc)
 }
 "
 ```
@@ -116,9 +117,14 @@ model{
 * Data and priors as a list
 
 ```{r}
-data <- list(y=log(y), n=length(y),
-             x_ic=log(1000), tau_ic=100,
-			 a_obs=1, r_obs=1, a_proc=1, r_proc=1)
+data <- list(y=log(y),
+             n=length(y),
+             x_ic=log(1000),
+             tau_ic=100,
+             a_obs=1,
+             r_obs=1,
+             a_proc=1,
+             r_proc=1)
 ```
 
 * Starting point of parameters
@@ -177,7 +183,7 @@ points(time, y)
 ```
 ci <- apply(xs, 2, quantile, c(0.025, 0.975))
 lines(time, ci[1,], col = 'blue')
-lines(time, ci[2,], col = 'red)
+lines(time, ci[2,], col = 'red')
 ```
 
 ## Forecasting
