@@ -72,13 +72,12 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * *October 17: State-space model*
 
-* *October 22: State-space model pt 2*
-
-* October 24: Near-term Iterative Forecasting
+* October 22: Near-term Iterative Forecasting
     * Reading: [Iterative near-term ecological forecasting: Needs, opportunities, and challenges](https://doi.org/10.1073/pnas.1710231115 )
-    * Discussion Leader: 
+    * Discussion Leader: Morgan
+    * Discussion [Questions]({{ site.baseurl }}/discussion/iterative)
 
-[//]: #    * Discussion [Questions]({{ site.baseurl }}/discussion/iterative)
+* *October 24: State-space model pt 2*
 
 * October 29:  Forecasting using Species Distribution Models
     * Reading: [Species Distribution Models:Ecological Explanation and Prediction Across Space and Time](http://eurobasin.dtuaqua.dk/eurobasin/documents/Training%20ISM/Elith_and_Leathwick_2009.pdf)
