@@ -81,7 +81,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * October 29:  Forecasting using Species Distribution Models
     * Reading: [Species Distribution Models:Ecological Explanation and Prediction Across Space and Time](http://eurobasin.dtuaqua.dk/eurobasin/documents/Training%20ISM/Elith_and_Leathwick_2009.pdf)
-    * Discussion Leader: 
+    * Discussion Leader: Ethan
 
 [//]: #    * [Discussion Questions]({{ site.baseurl }}/discussion/SDMs)
     
@@ -105,14 +105,14 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * November 7: How do other fields forecast - Elections
     * Reading:[A User's Guide to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
     * Reading: [Which election forecast should you trust](http://www.slate.com/articles/news_and_politics/politics/2016/08/fivethirtyeight_vs_the_upshot_who_should_you_trust_to_forecast_the_2016.html)
-    * Discussion leader: 
+    * Discussion leader: Morgan?
 
 [//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/elections)
     
 * November 12: Data-driven models for forecasting [quantitative]
     * Reading: [Equation-free mechanistic ecosystem forecasting using empirical dynamic modeling](https://doi.org/10.1073/pnas.1417063112) 
     * YouTube video: https://www.youtube.com/watch?v=fevurdpiRYg
-    * Discussion leader: 
+    * Discussion leader: Ethan
 
 [//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/edm)
 
@@ -124,12 +124,13 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 
 * November 21: Scenario based foreasting
     * Reading: [Why global scenarios need ecology](https://doi.org/10.1890/1540-9295(2003)001[0322:WGSNE]2.0.CO;2)
-    * Discussion leader: 
+    * Discussion leader: Ethan
 
 [//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/scenarios)
 
 * November 26: Ethics of Forecasting
     * Reading: [Ethical considerations and unanticipated consequences associated with ecological forecasting for marine resources](https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsy210/5303214)
+    * Discussion Leader: ??
  
 * December 3: Can we forecast in ecology (and what can we forecast)?
     * Reading: [Prediction, precaution, and policy under global change](https://doi.org/10.1126/science.1261824)
