@@ -70,13 +70,14 @@ y_t = x_t + e_t
 ## Model Framework
 
 * Models like this are not trivial to fit
-* Use [JAGS (Just Another Gibbs Sampler)](http://mcmc-jags.sourceforge.net) to
-  fit the model using Bayesian methods. The `rjags` library use R to call JAGS.
+* Use [JAGS (Just Another Gibbs Sampler)](http://mcmc-jags.sourceforge.net)
+* Gibbs samplers are a way of exploring parameter space to fit the model using
+  Bayesian methods.
+* The `rjags` library use R to call JAGS.
 
 ```{r}
 library(rjags)
 ```
-
 
 ## Model
 
@@ -97,13 +98,13 @@ RandomWalk = "
 model{
   
   #### Data Model
-  for(i in 1:n){
-    y[i] ~ dnorm(x[i], tau_obs)
+  for (t in 1:n){
+    y[t] ~ dnorm(x[t], tau_obs)
   }
   
   #### Process Model
-  for(i in 2:n){
-    x[i]~dnorm(x[i-1], tau_proc)
+  for (t in 2:n){
+    x[t]~dnorm(x[t-1], tau_proc)
   }
   
   #### Priors
@@ -117,10 +118,10 @@ model{
 * Data and priors as a list
 
 ```{r}
-data <- list(y=log(y),
+data <- list(y=y,
              n=length(y),
-             x_ic=log(1000),
-             tau_ic=100,
+             x_ic=1000,
+             tau_ic=1,
              a_obs=1,
              r_obs=1,
              a_proc=1,
@@ -130,7 +131,7 @@ data <- list(y=log(y),
 * Starting point of parameters
 
 ```{r}
-init <- list(list(tau_proc=1/var(diff(log(y))),tau_obs=5/var(log(y))))
+init <- list(list(tau_proc=1/var(diff(y)),tau_obs=5/var(y)))
 ```
 
 * Normally would want several chains with different starting positions to avoid
@@ -150,11 +151,13 @@ j.model   <- jags.model (file = textConnection(RandomWalk),
 ```{r}
 jags.out   <- coda.samples (model = j.model,
                             variable.names = c("tau_proc","tau_obs"),
-                            n.iter = 1000)
+                            n.iter = 10000)
 plot(jags.out)
 ```
 
 * Sample from MCMC with full vector of X's
+* This starts sampling from the point were the previous run of `coda.samples`
+  ends so it gets rid of the burn-in samples
 
 ```{r}
 jags.out   <- coda.samples (model = j.model,
@@ -167,7 +170,7 @@ jags.out   <- coda.samples (model = j.model,
 
 ```{r}
 out <- as.matrix(jags.out)
-xs <- exp(out[,3:ncol(out)])
+xs <- out[,3:ncol(out)]
 ```
 
 * Point predictions are averages across MCMC samples
@@ -182,8 +185,8 @@ points(time, y)
 
 ```
 ci <- apply(xs, 2, quantile, c(0.025, 0.975))
-lines(time, ci[1,], col = 'blue')
-lines(time, ci[2,], col = 'red')
+lines(time, ci[1,], lty = "dashed")
+lines(time, ci[2,], lty = "dashed")
 ```
 
 ## Forecasting
@@ -196,6 +199,10 @@ lines(time, ci[2,], col = 'red')
 y = c(gflu$Massachusetts, rep(NA, 52))
 time = c(as.Date(gflu$Date), seq.Date(as.Date("2015-08-16"), as.Date("2016-08-09"), "week"))
 ```
+
+## Adding complexity to this model
+
+
 
 ## Uncertainty
 
