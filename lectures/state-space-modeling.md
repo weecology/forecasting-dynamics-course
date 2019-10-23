@@ -196,22 +196,13 @@ lines(time, ci[2,], lty = "dashed")
 > Make these changes at top of script and rerun
 
 ```
-y = c(gflu$Massachusetts, rep(NA, 52))
-time = c(as.Date(gflu$Date), seq.Date(as.Date("2015-08-16"), as.Date("2016-08-09"), "week"))
+data$y[(length(y)-51):length(y)] = NA
 ```
 
 ## Uncertainty
 
 * The uncertainty is partitioned between process and observation models
 * Look at `tau_proc` and `tau_obs` (as standard deviations)
-
-```{r}
-params <- window(ef.out$params,start=2000) ## remove burn-in
-plot(params)
-summary(params)
-cor(as.matrix(params))
-pairs(as.matrix(params))
-```
 
 ## Dynamic linear modeling
 
@@ -259,6 +250,7 @@ library(ecoforecastR)
 data$logy = log(data$y)
 dlm = ecoforecastR::fit_dlm(model = list(obs="logy", fixed="~ 1 + X + Tmin"), data)
 params = dlm$params
+params <- window(dlm$params,start=1000) ## remove burn-in
 plot(params)
 ```
 
@@ -267,7 +259,7 @@ plot(params)
 ```
 out <- as.matrix(dlm$predict)
 ci <- apply(exp(out),2,quantile,c(0.025,0.5,0.975))
-plot(time, log(y))
+plot(time, y)
 lines(time, ci[2,])
 lines(time, ci[1,], lty = "dashed")
 lines(time, ci[3,], lty = "dashed")
