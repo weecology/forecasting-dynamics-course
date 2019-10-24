@@ -204,7 +204,7 @@ data$y[(length(y)-51):length(y)] = NA
 * The uncertainty is partitioned between process and observation models
 * Look at `tau_proc` and `tau_obs` (as standard deviations)
 
-```r
+```{r}
 hist(1/sqrt(out[,1])
 hist(1/sqrt(out[,2])
 plot(out[,1],out[,2])
@@ -243,7 +243,8 @@ weather_data$date = as.Date(paste(weather_data$year,weather_data$yday,sep = "-")
 * Add this weather data to our `data` object used by our model
 
 ```{r}
-data$Tmin = weather_data$tmin..deg.c.[match(time, weather_data$date)]
+#data$Tmin = weather_data$tmin..deg.c.[match(time, weather_data$date)]
+data$Tmin = weather_data$tmin..deg.c.[weather_data$date %in% time]
 ```
 
 * Could expand on our random walk model in JAGS
