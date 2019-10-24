@@ -204,6 +204,12 @@ data$y[(length(y)-51):length(y)] = NA
 * The uncertainty is partitioned between process and observation models
 * Look at `tau_proc` and `tau_obs` (as standard deviations)
 
+```r
+hist(1/sqrt(out[,1])
+hist(1/sqrt(out[,2])
+plot(out[,1],out[,2])
+```
+
 ## Dynamic linear modeling
 
 * Random walk worked well for one-step ahead

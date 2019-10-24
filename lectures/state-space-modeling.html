@@ -159,6 +159,9 @@ lines(time, ci[2,], lty = &quot;dashed&quot;)</code></pre>
 <li>The uncertainty is partitioned between process and observation models</li>
 <li>Look at <code>tau_proc</code> and <code>tau_obs</code> (as standard deviations)</li>
 </ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">hist</span>(<span class="dv">1</span><span class="op">/</span><span class="kw">sqrt</span>(out[,<span class="dv">1</span>])
+<span class="kw">hist</span>(<span class="dv">1</span><span class="op">/</span><span class="kw">sqrt</span>(out[,<span class="dv">2</span>])
+<span class="kw">plot</span>(out[,<span class="dv">1</span>],out[,<span class="dv">2</span>])</code></pre></div>
 <h2 id="dynamic-linear-modeling">Dynamic linear modeling</h2>
 <ul>
 <li>Random walk worked well for one-step ahead</li>
