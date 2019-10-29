@@ -102,7 +102,7 @@ A good general overview of hurricane forecasting has proven elusive, so instead 
      
 * November 7: How do other fields forecast - Elections
     * Reading:[A User's Guide to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
-    * Reading:[Mainstream election-forecasting could be improved by a popular academic approach](https://www.economist.com/graphic-detail/2018/07/16/mainstream-election-forecasting-could-be-improved-by-a-popular-academic-approach)
+    * Reading:[Another model to forecast the house elections? Meet Mr. P](https://www.thecrosstab.com/2018/04/20/mrp-house/)
     * Discussion leader: Morgan
 
 [//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/elections)
