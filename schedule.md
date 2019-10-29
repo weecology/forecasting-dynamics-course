@@ -87,16 +87,14 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *October 31: Species Distribution Models* 
 
 * November 5: How do other fields forecast - Hurricane Forecasting
-    * [Types of Hurricane Forecast Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/)
-    * [Statistical, Statistical-Dynamic, Trajectory Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/statistical/)
+    * [What goes into hurricane forecasting?](https://www.npr.org/sections/thetwo-way/2017/09/08/549477502/what-goes-into-hurricane-forecasting-satellites-supercomputers-and-more)
+     * [Types of Hurricane Forecast Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/)
+     * [Statistical, Statistical-Dynamic, Trajectory Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/statistical/)
     * [Dynamical Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/dynamicalmodels/)
     * [Numerical Weather Predictions/Ensemble Forecasting Explained](https://www.weather.gov/media/ajk/brochures/NumericalWeatherPrediction.pdf)
     * [How Hurricane Forecast Models Work](http://www.hurricanescience.org/science/forecast/models/modelswork/)
     * [Ensemble or Consensus Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/ensemble/)
-    * Other interesting reading:
-        * For fun: With your new knowledge on hurricane forecasting, you might find these articles about forecast accuracy of Hurricane Michael and Hurricane Florence interesting. These are not required for class.
-        * [Hurricane Michael and why it’s so hard to predict storm intensity](https://www.vox.com/energy-and-environment/2018/10/11/17963958/hurricane-michael-forecast-track-intensity-category)
-        * [Surprise! The American weather model had the best forecasts for Hurricane Florence](https://www.washingtonpost.com/weather/2018/09/26/surprise-american-weather-model-had-best-forecasts-hurricane-florence/?utm_term=.b1cb011d15e4)
+    * [The State of Hurricane Forecasting is...](https://https://noaanhc.wordpress.com/2018/03/09/the-state-of-hurricane-forecasting/)
     * Discussion leader: Morgan
 
 [//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/weather)
