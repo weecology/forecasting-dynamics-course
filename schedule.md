@@ -87,6 +87,7 @@ Activity days when laptops are required are noted in italics. Discussion leaders
 * *October 31: Species Distribution Models* 
 
 * November 5: How do other fields forecast - Hurricane Forecasting
+A good general overview of hurricane forecasting has proven elusive, so instead we have a series of web pages and blog posts that will provide the framework for our discussion. The first reading is to set the stage and the subsequent readings will fill in the details of the types of models hurricane forecasting relies on and the challenges involved.
     * [What goes into hurricane forecasting?](https://www.npr.org/sections/thetwo-way/2017/09/08/549477502/what-goes-into-hurricane-forecasting-satellites-supercomputers-and-more)
      * [Types of Hurricane Forecast Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/)
      * [Statistical, Statistical-Dynamic, Trajectory Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/statistical/)
