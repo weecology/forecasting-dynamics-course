@@ -95,10 +95,9 @@ A good general overview of hurricane forecasting has proven elusive, so instead 
     * [Numerical Weather Predictions/Ensemble Forecasting Explained](https://www.weather.gov/media/ajk/brochures/NumericalWeatherPrediction.pdf)
     * [How Hurricane Forecast Models Work](http://www.hurricanescience.org/science/forecast/models/modelswork/)
     * [Ensemble or Consensus Models](http://www.hurricanescience.org/science/forecast/models/modeltypes/ensemble/)
-    * [The State of Hurricane Forecasting is...](https://https://noaanhc.wordpress.com/2018/03/09/the-state-of-hurricane-forecasting/)
+    * [The State of Hurricane Forecasting is...](https://noaanhc.wordpress.com/2018/03/09/the-state-of-hurricane-forecasting/)
     * Discussion leader: Morgan
-
-[//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/weather)
+  * [Discussion questions]({{ site.baseurl }}/discussion/weather)
      
 * November 7: How do other fields forecast - Elections
     * Reading:[A User's Guide to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
