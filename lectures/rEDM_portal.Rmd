@@ -1,6 +1,6 @@
 ---
 title: "rEDM Primer"
-author: "Hao Ye"
+author: "Hao Ye & Ethan White"
 date: "`r Sys.Date()`"
 output:
   html_document
@@ -20,10 +20,8 @@ library(rEDM)
 * Download the data
 
 ```{r}
-rodent_data = abundance(shape = "flat")
-do_data = filter(rodent_data, species == 'DO') %>%
-  select(period, abundance) %>% 
-  data.frame()
+rodent_data = abundance()
+do_data = data.frame(period = rodent_data$period, abundance = rodent_data$DO)
 
 ggplot(do_data, aes(x = period, y = abundance)) +
   geom_line()
@@ -69,6 +67,11 @@ $$x_i(t+1) = G_i\left(x_i(t), x_i(t-1), \dots, x_i(t-(E-1))\right)$$
 ## Usage
 
 * Need to estimate $G_i$ from the data
+* Typically think of this as fitting an equation, but $G$ is arbitrarily complex
+* And since we're focusing on prediction we don't need the equation, we just need to know what is going to happen next
+* And we can get this prediction by looking through the existing time-series and finding periods that look like the current period (*draw example*)
+* These historical periods should reflect the same dynamics of $G$ and therefore the same state variables in $F$
+* Which should mean that what happens next in these periods should match what happens next now.
 * Use the simplest, simplex projection
 * Weighted nearest-neighbors approximation:
 
@@ -116,16 +119,16 @@ simplex(do_data,                     # input data (for data.frames, uses 2nd col
 * To store predicted values add `stats_only` argument
 
 ```{r}
-output <- simplex(do_data,
-        lib = lib, pred = pred,  # predict on last 1/3
-        E = 5, 
-        stats_only = FALSE)      # return predictions, too
+  output <- simplex(do_data,
+          lib = lib, pred = pred,  # predict on last 1/3
+          E = 5, 
+          stats_only = FALSE)      # return predictions, too
 ```
 
 * Output is a data.frame with a list column for the predictions
 
 ```{r}
-predictions <- output$model_output[[1]]
+predictions <- output[[1]]$model_output
 str(predictions)
 ```
 
@@ -156,4 +159,25 @@ ggplot(do_data, aes(x = period, y = abundance)) +
 
 
 * This is a single time step forecast
-* To try forecasting more than one month into the future use `tp`
+* For multi-step forecasts we can take these one step ahead forecasts along with their
+  uncertainties and increment forward for multi-step forecasts as you'll see later in the
+  week in a different context.
+* Or we can train the model to make forecasts the number of steaps head that we want
+* We do this using `tp`
+
+```{r}
+output <- simplex(do_data,
+          lib = lib, pred = pred,  # predict on last 1/3
+          E = 6,
+          tp = 6,
+          stats_only = FALSE)      # return predictions, too
+
+predictions <- output[[1]]$model_output
+
+ggplot(do_data, aes(x = period, y = abundance)) +
+  geom_line() +
+  geom_line(data = predictions, mapping = aes(x = time, y = pred), color = 'blue')
+```
+
+* The model performs less well the longer the "forecast horizon" or distance into the future we ask it
+  to prediction, which is a common feature of real world forecasts.
