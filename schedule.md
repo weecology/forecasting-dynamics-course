@@ -103,8 +103,7 @@ A good general overview of hurricane forecasting has proven elusive, so instead 
     * Reading:[A User's Guide to FiveThirtyEight's 2016 Election Forecast](https://fivethirtyeight.com/features/a-users-guide-to-fivethirtyeights-2016-general-election-forecast/)
     * Reading:[Another model to forecast the house elections? Meet Mr. P](https://www.thecrosstab.com/2018/04/20/mrp-house/)
     * Discussion leader: Morgan
-
-[//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/elections)
+    * [Discussion questions]({{ site.baseurl }}/discussion/elections)
     
 * November 12: Data-driven models for forecasting [quantitative]
     * Reading: [Equation-free mechanistic ecosystem forecasting using empirical dynamic modeling](https://doi.org/10.1073/pnas.1417063112) 
