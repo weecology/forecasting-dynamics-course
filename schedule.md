@@ -114,18 +114,17 @@ A good general overview of hurricane forecasting has proven elusive, so instead 
 * *November 14:  Empirical Dynamic Modeling Tutorial*
     * [Code]({{ site.baseurl }}/lectures/rEDM_primer)    
 
-* November 19: Operational Forecasting
-    * Reading: [Lonnie Gonsalves talk](https://www.youtube.com/watch?v=04CbfDvXjUc)
-
-* November 21: Scenario based foreasting
+* November 19: Scenario based foreasting
     * Reading: [Why global scenarios need ecology](https://doi.org/10.1890/1540-9295(2003)001[0322:WGSNE]2.0.CO;2)
     * Discussion leader: Ethan
 
 [//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/scenarios)
 
-* November 26: Ethics of Forecasting
+* November 21: Ethics of Forecasting
     * Reading: [Ethical considerations and unanticipated consequences associated with ecological forecasting for marine resources](https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsy210/5303214)
     * Discussion Leader: ??
+
+* November 26: Thanksgiving
  
 * December 3: Can we forecast in ecology (and what can we forecast)?
     * Reading: [Prediction, precaution, and policy under global change](https://doi.org/10.1126/science.1261824)
