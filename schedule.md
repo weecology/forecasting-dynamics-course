@@ -117,12 +117,11 @@ A good general overview of hurricane forecasting has proven elusive, so instead 
 * November 19: Scenario based foreasting
     * Reading: [Why global scenarios need ecology](https://doi.org/10.1890/1540-9295(2003)001[0322:WGSNE]2.0.CO;2)
     * Discussion leader: Ethan
-
-[//]: #    * [Discussion questions]({{ site.baseurl }}/discussion/scenarios)
+    * [Discussion questions]({{ site.baseurl }}/discussion/scenarios)
 
 * November 21: Ethics of Forecasting
     * Reading: [Ethical considerations and unanticipated consequences associated with ecological forecasting for marine resources](https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsy210/5303214)
-    * Discussion Leader: ??
+    * Discussion Leader: Morgan
 
 * November 26: Thanksgiving
  
