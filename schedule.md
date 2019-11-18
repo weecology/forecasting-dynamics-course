@@ -122,6 +122,7 @@ A good general overview of hurricane forecasting has proven elusive, so instead 
 * November 21: Ethics of Forecasting
     * Reading: [Ethical considerations and unanticipated consequences associated with ecological forecasting for marine resources](https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsy210/5303214)
     * Discussion Leader: Morgan
+    * [Discussion questions]({{ site.baseurl }}/discussion/ethics)
 
 * November 26: Thanksgiving
  
